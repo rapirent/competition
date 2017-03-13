@@ -29,3 +29,8 @@
     - n3 = x1*q3 + r1
     - 相減得到 a1 = n1 - n2 = x1*(q1-q2), a2 = n1 - n3 = x1*(q1 - q3)
     - 而如果只有兩個數, 則有x1*(q1 - q2) = (n1 - n2)*1, 故兩數相差即此數!!!!!
+- 532:BFS
+    - 就是簡單的BFS, 運用C++的queue搭配struct可以簡單完成
+    - 重點是重置array, 多維可以使用memset(array, 0, sizeof(array[0][0])*m*n)
+    - c++11才支援queue.push(node{1,1})，一般使用node p = {1,1}; queue.push(p)
+    - queue要記得清空喔!!
