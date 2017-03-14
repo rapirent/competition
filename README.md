@@ -34,3 +34,13 @@
     - 重點是重置array, 多維可以使用memset(array, 0, sizeof(array[0][0])*m*n)
     - c++11才支援queue.push(node{1,1})，一般使用node p = {1,1}; queue.push(p)
     - queue要記得清空喔!!
+- 10090:GCD
+    - 使用擴充輾轉來解不定方程, 如果指定輸入不是gcd的倍數的話則此不定方程無解
+    - 題目要求找到n1*x+n2*y = marble的解, 並讓其滿足c1*x+c2*y最小
+    - n1*x' +n2*y' = gcd , n1*(x*marble/gcd) + n2*(y*marble/gcd) = gcd*marble/gcd = marble
+    - n1*x + n2*y = marble
+    - m1 = m1 + n2 / g * t  , m2 = m2 –  n1 / g * t 
+    - x'' = x + n2 / gcd *t, y'' = y - n1 / gcd *t ''代表最終決定值
+    - cost = c1* x'' + c2 * y'' = c1*(x + n2/gcd*t) + c2*(y - n1/gcd*t)
+            = (c1*x+c2*y)+(c1*n2 - c2*n1)/gcd*t
+ 
