@@ -43,4 +43,8 @@
     - x'' = x + n2 / gcd *t, y'' = y - n1 / gcd *t ''代表最終決定值
     - cost = c1* x'' + c2 * y'' = c1*(x + n2/gcd*t) + c2*(y - n1/gcd*t)
             = (c1*x+c2*y)+(c1*n2 - c2*n1)/gcd*t
- 
+
+- 10606:大數
+    - 因為太麻煩了所以拿java來寫..只是java有很多限制讓我吃了兩個compilation error
+        - 不能有public class, 檔名得寫Main, 進入點Class得寫Main
+    - 參考陳鐘誠的電腦二元逼近法
