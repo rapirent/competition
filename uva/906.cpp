@@ -17,7 +17,8 @@ int main(void)
         do{
             d++;
             c = 1;
-            while ( a_divide_b -(long double)c/(long double)d  >= epsilon) {
+            //我試過用a/b < c/d 跟epsilon比較, 無效 QQ
+            while (a*d >= c*b) {
                 c++;
             }
         }while(a_divide_b - (long double)c / (long double)d <= eps);
