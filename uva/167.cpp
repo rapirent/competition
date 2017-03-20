@@ -5,7 +5,7 @@ using namespace std;
 
 int solution[8][100]={0};
 int count=0;
-int test[3][15] = {0};
+int test[3][17] = {0};
 
 void search(int x)
 {
