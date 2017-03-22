@@ -58,4 +58,7 @@
         - 除非可以每次答案返回後將原本已經給出的count都加1
 - 906:float number、浮點數
     - 題意: 0 < c/d - a/b <= n, 給定a,b,n找出c/d 
-    - 千萬不能夠單純的c=a/b*d,需要while(a*d>=c*b) c++;來找出真正c值 
+    - 千萬不能夠單純的c=a/b*d,需要while(a*d>=c*b) c++;來找出真正c值
+- 10341:使用牛頓法
+    - 注意精度、underflow(引入eps)
+
