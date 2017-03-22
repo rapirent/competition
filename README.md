@@ -59,6 +59,14 @@
 - 906:float number、浮點數
     - 題意: 0 < c/d - a/b <= n, 給定a,b,n找出c/d 
     - 千萬不能夠單純的c=a/b*d,需要while(a*d>=c*b) c++;來找出真正c值
-- 10341:使用牛頓法
+- 10341:解方程式
+    - 使用牛頓法
     - 注意精度、underflow(引入eps)
+    - 有第二種方法, 使用binary search
+- 674:coin change、DE
+    - 無限可能的coin change 問題
 
+## POJ
+
+- 2533:LIS
+    - 算出LIS就好了
