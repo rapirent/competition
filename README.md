@@ -65,7 +65,10 @@
     - 有第二種方法, 使用binary search
 - 674:coin change、DE
     - 無限可能的coin change 問題
-
+- 200:DAG、topological sort
+    - 使用陣列來實做比較簡單
+    - 有20個輸入, 用fgets記得要設成21
+    - 當只輸入一個單字時就輸出該個單字
 ## POJ
 
 - 2533:LIS
