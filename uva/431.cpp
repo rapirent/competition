@@ -84,7 +84,7 @@ int main(void)
         travDP(print, time, score, description, input_count, allow_time);
         sort(DP.begin(),DP.end(), compare);
         for(int count = 0;count<DP.size();count++) {
-            printf("%3d     %2d   %s\n",DP[count].score,DP[count].time,DP[count].description);
+            printf("%3d%7d   %s\n",DP[count].score,DP[count].time,DP[count].description);
         }
         DP.resize(0);
         printf("\nTotal score: %d points\n",print[input_count][allow_time]);
