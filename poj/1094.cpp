@@ -1,8 +1,11 @@
 #include <cstdio>
 #include <iostream>
 #include <cstring>
+#include <vector>
 
 using namespace std;
+
+
 
 int main(void)
 {
@@ -19,16 +22,31 @@ int main(void)
             visited[input[0] - 'A'] = visited[input[2] - 'A'] = 1;
             //input1 -> input2  input2 is before from the input1
         }
-        int count = 0;
         int source2,b,inconsist = 0,source = -1;
+        int cycle = 0,cycle_count;
         for(int source2 = 0;source2<26;source2++) {
             b = 0;
             for(;b<26;b++) {
                 if(dag[b][source2]) {
-                    count++;
                     //b在a後, 有人連到a
+                    cycle_count = 0;
+                    for(int test = 0,test2 = source2;test<26;test++) {
+                        if(dag[test2][test]) {
+                            cycle_count ++;
+                            if(test == source2) {
+                                cycle = 1;
+                                break;
+                            }
+                            test2 = test;
+                            test = 0;
+                        }
+                        
+                    }
                     break;
                 }
+            }
+            if(cycle) {
+                break;
             }
             if(b>=26 && visited[source2]) {
                 if(source == -1) {
@@ -41,16 +59,20 @@ int main(void)
                 }
             }
         }
-        if(m<(n-1)) {
-            printf("Sorted sequence cannot be determined.\n");
+        vector<char> vec;
+        int count = 0;
+        if(cycle) {
+            printf("Inconsistency found after %d relations.\n",cycle_count);
             continue;
         }
         if(b>=26&&source<26&&source!=-1) {
             if(inconsist) {
-                printf("Sorted sequence cannot be determined");
+                printf("Sorted sequence cannot be determined.\n");
             }
             else {
-                printf("Sorted sequence determined after %d relations: %c",count+1,source + 'A');// ABCD.
+                vec.push_back(source + 'A');
+                count++;
+                //printf("Sorted sequence determined after %d relations: %c",,source + 'A');// ABCD.
                 for(int a = 0; a<26;a++) {
                     dag[source][a] = 0;
                 }
@@ -71,20 +93,25 @@ int main(void)
                         break;
                     }
                     if(trav>=26&&source<26) {
-                        printf("%c",source + 'A');
+                        vec.push_back(source + 'A');
+                        //printf("%c",source + 'A');
+                        count++;
                     }
                     for(int a = 0;a<26;a++) {
                         dag[source][a] = 0;
                     }
                     visited[source] = 0;
-
                 }
+                printf("Sorted sequence determined after %d relations: ",count);// ABCD.
+                for(int a = 0;a<vec.size();a++) {
+                    printf("%c",vec[a]);
+                }
+                printf(".\n");
             }
         }
         else {
-            printf("Inconsistency found after %d relations",count);
+            printf("Sorted sequence cannot be determined.\n");
         }
-        printf(".\n");
     }
     return 0;
 }
