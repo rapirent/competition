@@ -1,83 +1,60 @@
-/*******************************************************/
-/* UVa 103 Stacking Boxes                              */
-/* Author: LanyiKnight [at] knightzone.org             */
-/* Version: 2015/01/14                                 */
-/*******************************************************/
 #include <iostream>
 #include <cstdio>
 #include <vector>
 #include <algorithm>
 using namespace std;
-struct Box{
-  int id;
-  vector<int> length;
 
-  Box(int i = 0, int n = 0, int value = 0){
-    id = i;
-    length = vector<int>(n, value);
-  }
+const int NO_MEMBER = -1;
+
+struct Elephant{
+  int id;
+  int weight;
+  int IQ;
 };
 
-bool boxCompare(const Box &a, const Box &b){
-  for( int i = 0 ; i < a.length.size() ; ++i ){
-    if( a.length[i] < b.length[i] ) return true;
-    if( a.length[i] > b.length[i] ) return false;
-  }
-  return true;
+bool cmpWeight(const Elephant &a, const Elephant &b){
+  return a.weight <= b.weight;
 }
 
-
-bool isBoxContain(const Box &a, const Box &b){
-  for( int i = 0 ; i < a.length.size() ; ++i ){
-    if( a.length[i] <= b.length[i] ) return false;
-  }
-  return true;
-}
-
-void printNestingBox(const vector<int> &prevNesting, const vector<Box> &boxSequence, int lastbox, bool printSpace){
-  if( lastbox == -1 ) return ;
-
-  printNestingBox( prevNesting, boxSequence, prevNesting[lastbox], true );
-  printf("%d", boxSequence[lastbox].id);
-  if( printSpace ) printf(" ");
+void printLIS(const vector<Elephant> &elephants,  
+              const vector<int> &LISprevious,
+              int index ){
+  if( LISprevious[index] != NO_MEMBER ) printLIS( elephants, LISprevious, LISprevious[index] );
+  printf("%d\n", elephants[index].id);
 }
 
 int main(){
-  int k, n;
-  while( scanf("%d%d", &k, &n) != EOF ){
+  vector<Elephant> elephants;
+  Elephant e;
+  while( scanf("%d%d", &(e.weight), &(e.IQ)) != EOF ){
+    e.id = elephants.size() + 1;
+    elephants.push_back(e);
+  }
 
-    vector<Box> boxSequence;
-    for( int i = 0 ; i < k ; ++i ){
-      Box box(i+1, n, 0);
-      for( int j = 0 ; j < n ; ++j ){
-        scanf("%d", &(box.length[j]));
-      }
-      sort( box.length.begin(), box.length.end() );
-      boxSequence.push_back(box);
-    }
+  sort(elephants.begin(), elephants.end(), cmpWeight);
 
-    sort( boxSequence.begin(), boxSequence.end(), boxCompare );
+  vector<int> LISlength(elephants.size(), 1);
+  vector<int> LISprevious(elephants.size(), NO_MEMBER);
 
-    vector<int> maxNesting(k, 1), prevNesting(k, -1);
-    int maxlength = 1, lastbox = 0;
-    for( int i = 0 ; i < boxSequence.size() ; ++i ){
-      for( int j = 0 ; j < i ; ++j ){
-        if( isBoxContain(boxSequence[i], boxSequence[j]) ){
-          if( maxNesting[j]+1 > maxNesting[i] ){
-            maxNesting[i] = maxNesting[j] + 1;
-            prevNesting[i] = j;
-            if( maxNesting[i] > maxlength ){
-              maxlength = maxNesting[i];
-              lastbox = i;
-            }
-          }
+  int maxLength = 0, maxIndex = NO_MEMBER;
+  for( int i = 0 ; i < elephants.size() ; ++i ){
+    for( int j = i + 1 ; j < elephants.size() ; ++j ){
+      if( elephants[i].weight < elephants[j].weight &&
+          elephants[i].IQ > elephants[j].IQ ){
+        if( LISlength[i] + 1 > LISlength[j] ){
+          LISlength[j] = LISlength[i] + 1;
+          LISprevious[j] = i;
         }
       }
     }
-
-    printf("%d\n", maxlength);
-    printNestingBox(prevNesting, boxSequence, lastbox, false);
-    printf("\n");
+    if( LISlength[i] > maxLength ){
+      maxLength = LISlength[i];
+      maxIndex = i;
+    }
   }
+
+  printf("%d\n", maxLength);
+  printLIS(elephants, LISprevious, maxIndex);
+
   return 0;
-}  
+}
