@@ -10,65 +10,67 @@ int main(void)
 {
     int n,k,m;
     int book[600] = {0};
+    int partition_index[600] = {0};
     scanf("%d",&n);
     while(n-->0) {
-        int upper = 0,lower = 0;
+        long long int upper = 0,lower = 0;
         scanf("%d%d",&m,&k);
         for(int a = 0;a<m;a++) {
             scanf("%d",&book[a]);
             if(lower<book[a]) {
-                lower = book[a];
+                lower = book[a];//低者為所有之中最大者
             }
-            upper+=book[a];
+            upper+=book[a];//高者為所有總和
         }
-        int num = 0,mid;
+        int partition_num;
+        long long int find;
         while(upper>lower) {
             long long int sum = 0;
-            mid = (upper+lower)/2;
-            for(int i = 0;i<m;i++) {
-                if(sum + book[i] > mid) {
-                    //這個值可以分給一個人
-                    num++;
-                    sum = 0;
+            partition_num = 1;
+            long long int mid = (upper+lower)/2;//目前p(x)之x為mid
+            for(int i = 0;i<m;i++) {//試試看能不能使用吧!                
+                if(sum + book[i] <= mid) {
+                    sum += book[i];
                 }
-                sum+=book[i];
+                else {
+                    partition_num++;
+                    sum = book[i];
+                }
             }
-            if(num>k) {
-                lower = mid +1;
+            if(partition_num<=k) {
+                //partition的總數小於員工數
+                upper = mid;//這個可以!!!
+                find = mid;
             }
             else {
-                upper = mid;
+                lower = mid + 1;//這個不行, 調整下界
+                //因為mid不行, 所以我們調高
             }
         }
-        vector<int> stack[600];
+        //現在的最小臨界值就是mid
         long long int sum = 0;
         int j = 0;
-        printf("max= %d",mid);
-        for(int i = 0;i<k;i++) {
-            int shen_sha = lower;//剩下多少
-            while(shen_sha>=0) {
-                printf("j=%d\n",j);
-                printf("book[j]=%d",book[j]);
-                if(shen_sha-book[j] >= 0&&j<m) {
-                    stack[i].push_back(book[j]);
-                    j++;
-                }
-                shen_sha-=book[j];
+        int remain_partition = k;
+        memset(partition_index,0,sizeof(partition_index));
+        for(int i = m-1;i>=0;i--) {
+            if(sum + book[i]> find || remain_partition - 1>i) {
+                //或是因為我們以greedy, 最後一個partition員工一定拿最多!!!
+                remain_partition--;//換下一個
+                sum = 0;
+                sum = book[i];
+                partition_index[i] = 1;
             }
-            i++;
-        }
-        
-        for(int i = 0; i<k;i++) {
-            int j;
-            for(j = 0;j<stack[i].size();j++) {
-                printf("%d ",(stack[i])[j]);
-            }
-            if(i>0) {
-                printf("/");
+            else {
+                sum += book[i];
             }
         }
-        printf("\n");
-
+        for(int i = 0; i <m-1;i++) {
+            printf("%d ",book[i]);
+            if(partition_index[i]==1) {
+                printf("/ ");
+            }
+        }
+        printf("%d\n",book[m-1]);
     }
     return 0;
 }
