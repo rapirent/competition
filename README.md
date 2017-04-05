@@ -170,3 +170,6 @@
 - 2387:Single-source-shortest path
     - 重點是題目是給無向圖...所以使用bellman-ford得存雙向的邊!!
     - 沒有負邊, 不必處理
+- 3259:Single-source-shortest path
+-   - 重點是題目的理解...
+-   - 只要起點到終點的路徑上有負向邊, 則對(因為它會一直loop, 遇見之前的自己), 否則錯
