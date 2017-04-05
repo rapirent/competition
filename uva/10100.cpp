@@ -3,6 +3,7 @@
 #include <cstring>
 #include <string>
 #include <vector>
+#include <sstream>
 
 using namespace std;
 
@@ -11,76 +12,51 @@ vector<string> str2;
 
 int main(void)
 {
-    char input1[2000] = {'\0'},input2[2000] = {'\0'};
+    string input1,input2;
     int num = 1;
     int LCS[1000][1000] = {0};
-    while(fgets(input1,sizeof(input1),stdin)!=0) {
-        if(fgets(input2,sizeof(input2),stdin)==0) {
-            break;
-        }
-        if(input1[0] == '\n' || input2[0] == '\n') {
-            printf("%2d. Blank!\n",num++);
-            memset(input1,0,sizeof(input1));
-            memset(input2,0,sizeof(input2));
-            continue;
-        }
-        str1.clear();
-        str2.clear();
+    while(getline(cin,input1)) {
+        getline(cin,input2);
         string tmp;
-        str1.push_back(tmp);
         bool isEmpty = true;
-        for(int i = 0; i<strlen(input1) - 1;i++) {
-            if((input1[i]>='A'&&input1[i]<='Z')||
-                    (input1[i]>='0'&&input1[i]<='9')||
-                    (input1[i]>='a'&&input1[i]<='z')) {
-                tmp.push_back(input1[i]);
-                isEmpty = false;
-            }
-            else {
-                if(!isEmpty) {
-                    str1.push_back(tmp);
-                    tmp.clear();
-                    isEmpty = true;
-                }
+        for(int i = 0; i<input1.size();i++) {
+            if(!islower(input1[i]) && !isupper(input1[i]) && !isdigit(input1[i])) {
+                input1[i] = ' ';
             }
         }
-        if(!isEmpty) {
-            str1.push_back(tmp);
-            tmp.clear();
-        }
-        str2.push_back(tmp);
         isEmpty = true;
-        for(int i = 0;i<strlen(input2)-1;i++) {
-            if((input2[i]>='A'&&input2[i]<='Z')||
-                    (input2[i]>='0'&&input2[i]<='9')||
-                    (input2[i]>='a'&&input2[i]<='z')) {
-                tmp.push_back(input2[i]);
-                isEmpty = false;
-            }
-            else {
-                if(!isEmpty) {
-                    str2.push_back(tmp);
-                    tmp.clear();
-                    isEmpty = true;
-                }
+        for(int i = 0;i<input2.size();i++) {
+            if(!islower(input2[i]) && !isupper(input2[i]) && !isdigit(input2[i])) {
+                input2[i] = ' ';
             }
         }
-        if(!isEmpty) {
-            str2.push_back(tmp);
-            tmp.clear();
+        string string1 , string2;
+        istringstream istring1(input1);
+        istringstream istring2(input2);
+        str1.push_back("");
+        str2.push_back("");
+        while (istring1 >> string1) {
+            str1.push_back(string1);
+        }
+        while (istring2 >> string2) {
+            str2.push_back(string2);
         }
         memset(LCS,0,sizeof(LCS));
         int max_num = -1;
 
-        if(str1.size()==1||str1.size()==1) {
+        if(str1.size()==1||str2.size()==1) {
             printf("%2d. Blank!\n",num++);
-            memset(input1,0,sizeof(input1));
-            memset(input2,0,sizeof(input2));
+            input1.clear();
+            input2.clear();
+            istring1.clear();
+            istring2.clear();
+            str1.clear();
+            str2.clear();
             continue;
         }
         for(int i = 1;i<str1.size();i++) {
             for(int j = 1;j<str2.size();j++) {
-                if((str1[i])==(str2[j])&&((str1[i])!="")) {
+                if((str1[i])==(str2[j])) {
                     LCS[i][j] = LCS[i-1][j-1] + 1;
                 }
                 else {
@@ -92,8 +68,12 @@ int main(void)
             }
         }
         printf("%2d. Length of longest match: %d\n",num++,max_num);
-        memset(input1,0,sizeof(input1));
-        memset(input2,0,sizeof(input2));
+        input1.clear();
+        input2.clear();
+        istring1.clear();
+        istring2.clear();
+        str1.clear();
+        str2.clear();
     }
     return 0;
 }
