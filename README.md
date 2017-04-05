@@ -142,6 +142,8 @@
 - 11413:binary search
     - 同714, 不過比較簡單, 不需要考慮greedy, 只是單純求劃分的最大值
     - 就是使用binary search從{所有元素的最大值~所有元素總和值}中找到劃分集合的總和臨界值
+- 10100:LCS
+    - 重點是要怎麼分割字串, c++的isstream和c的strtok
 ## POJ
 
 - 2533:LIS
