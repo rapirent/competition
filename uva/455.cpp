@@ -2,35 +2,51 @@
 #include <iostream>
 #include <cstring>
 
-void fail(char b[],int pi[])
-{
-    int len = strlen(b);
-    for(int a = 1,cur_pos=-1;a<len;a++) {
-        while(cur_pos>=0&&b[a]!=b[cur_pos + 1]) {
-            cur_pos = pi[cur_pos];
-        }
-        if(b[a] == b[cur_pos+1]) {
-            cur_pos++;
-        }
-        pi[a] = cur_pos;
-    }
-}
+using namespace std;
+
 
 int main(void)
 {
     int repeat;
     scanf("%d",&repeat);
-    int pi[100];
-    char b[100];
-    char a[100];
     int count;
-    while(repeat--) {
-        scanf("%s",a);
-        for(count=1;count<strlen(a);count++) {
-            memset(b,0,sizeof(b));
-            strncpy(b,a,count);
-            memset(pi,-1,sizeof(pi));
-            fail(b, pi);            
+    char discard;
+    char input[1000] = {0};
+    while(repeat-->0) {
+        while((discard=getchar())!=EOF&&discard!='\n');
+        memset(input,0,sizeof(input));
+        scanf("%s",input);
+        int length = 1;
+        int fail = 0,printed = 0;
+        int i,j = 0;
+        int string_len=strlen(input);
+        for(;length<string_len;length++) {
+            if(string_len%length) {
+                continue;
+            }
+            for(i = 0;i<length;i++) {
+                for(j = i + length;j<string_len;j = j+length) {
+                    fail = 0;
+                    if(input[i]!=input[j]) {
+                        fail = 1;
+                        break;
+                    }
+                }
+                if(fail==1) {
+                    break;
+                }
+            }
+            if(fail==0) {
+                printed = 1;
+                printf("%d\n",length);
+                break;
+            }
+        }
+        if(printed==0) {
+            printf("%ld\n",strlen(input));
+        }
+        if(repeat) {
+            printf("\n");
         }
     }
     return 0;
