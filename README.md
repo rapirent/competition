@@ -160,6 +160,10 @@
     - 使用KMP比對輸入字串和反轉的輸入字串, 其中反轉的輸入字串當作pattern
         - 找到反轉輸入字串的後綴跟哪些輸入字串的前綴一樣
         - 因為KMP就是在求後面重複的字串長度
+- 902:trie
+    - 就是使用trie儲存結果, 接著以backtracking做遍尋, 以全域變數儲存最大的word count, 假如trie的字母數量大於此word count則把它儲存到結果字串中, 當backtracking結束後印出結果字串即可
+    - 可笑的是..我的電腦上執行會core dump...但uva卻accept(邊界太大)
+        - 但是如果把邊界設小..我的電腦雖然能執行但uva卻runtime error = =
 ## POJ
 
 - 2533:LIS
