@@ -178,3 +178,7 @@
 - 3259:Single-source-shortest path
     - 重點是題目的理解...
     - 只要起點到終點的路徑上有負向邊, 則對(因為它會一直loop, 遇見之前的自己), 否則錯
+- 3461:string matching、字串比對
+    - 不知道為什麼, 使用M algorithm會TLE
+        - 應該是要把Z陣列初始化的緣故
+    - 直接套KMP, 比對成功count++
