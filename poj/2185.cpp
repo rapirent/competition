@@ -21,8 +21,8 @@ int lem(int a,int b)
 int main(void)
 {
     int r,c;
-    char matrix[80][10002] = {0};
-    int pi[10002];
+    char matrix[10100][80] = {0};
+    int pi[10100] = {0};
     scanf("%d %d",&r,&c);
     for(int i = 0;i<r;i++) {
         scanf("%s",matrix[i]);
@@ -31,22 +31,20 @@ int main(void)
     int period_2;
     int lem_row = 1,lem_col = 1;
     for(int j = 0;j<r;j++) {
-        memset(pi,0,sizeof(pi));
         pi[0] = -1;
         cur_pos = -1;
         int i = 0;
-        while(i<c) {
-            if(cur_pos == -1||matrix[j][i] == matrix[j][cur_pos]) {
-                i++;
-                cur_pos++;
-                pi[i] = cur_pos;
-            }
-            else {
+        for(int i = 1;i<c;i++) {
+            while(cur_pos!=-1&&matrix[j][i]!=matrix[j][cur_pos+1]) {
                 cur_pos = pi[cur_pos];
             }
+            if(matrix[j][i]==matrix[j][cur_pos+1]) {
+                cur_pos++;
+            }
+            pi[i] = cur_pos;
         }
 
-        period_2 = i - pi[i];
+        period_2 = c - (pi[c-1]+1);
         lem_col = lem(lem_col,period_2);
         if(lem_col > c) {
             lem_col = c;
@@ -56,21 +54,19 @@ int main(void)
     cur_pos = -1;
 
     for(int j = 0;j<c;j++) {
-        memset(pi,0,sizeof(pi));
         pi[0] = -1;
         cur_pos = -1;
         int i = 0;
-        while(i<r) {
-            if(cur_pos == -1 || matrix[i][j]==matrix[cur_pos][j]) {
-                i++;
-                cur_pos++;
-                pi[i] = cur_pos;
-            }
-            else {
+        for(int i = 1;i<r;i++) {
+            while(cur_pos!=-1&&matrix[i][j]!=matrix[cur_pos+1][j]) {
                 cur_pos = pi[cur_pos];
             }
+            if(matrix[i][j]==matrix[cur_pos+1][j]) {
+                cur_pos++;
+            }
+            pi[i] = cur_pos;
         }
-        period_2 = i- pi[i];
+        period_2 = r- (pi[r-1] +1);
         lem_row = lem(lem_row,period_2);
         if(lem_row > r) {
             lem_row = r;
