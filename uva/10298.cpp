@@ -36,7 +36,7 @@ int main(void)
             printf("%d\n",len/(len - pi[len-1] - 1));
         }
         memset(input,0,sizeof(input[0])*len);
-        memset(input,0,sizeof(pi[0])*len);
+        memset(pi,0,sizeof(pi[0])*len);
     }
     return 0;
 }
