@@ -168,6 +168,9 @@
     - 單純的bellman-ford, 不過要做字串處理(strtok), 而且還要使用stack
 - 10000:bellman-ford
     - 把單源最短路徑(single source shortest path)問題換成單源最長路徑問題
+- 10048:floyd
+    - 修改floyd成紀錄經過路徑中單一最大的分貝數(權重)
+    - 最後一個輸出不需要空一行
 ## POJ
 
 - 2533:LIS

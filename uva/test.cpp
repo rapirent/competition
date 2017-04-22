@@ -1,90 +1,51 @@
-/**********ALLAH IS ALMIGHTY************/
-
-
-/**
- uva online judge
- problem name :: longest match ; 
- problem id   :: 10100; 
- catagory     :: dynamic_programming , lcs , string ;
-     don't use (conio.h) header this causes compilation error;
- my_solution .................
-**/
-
-#include <stdio.h>
-//#include <conio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
-#include <set>
-#include <map>
-#include <iostream>
-#include <iomanip>
-#include <vector>
-#include <stack>
-#include <queue>
+#include <cstdio>
 #include <algorithm>
-#include <bitset>
-#include <sstream>
-#include <fstream>
-#include <utility>
-#include <cassert>
-#include <ctime>
-#include <climits>
-#include <functional>
-#include <numeric>
-#include <memory.h>
-
 using namespace std;
+#define Inf 99999999
+int dis[101][101];
+int C, S, Q, Case = 1;
 
-string fs , ls;
-vector < string > vv;
-vector < string > vvv;
-int dp[1000][1000];
+void Initial();
+void Floyd();
 
-int lcs (int i , int j) {
-    if (i >= vv.size() || j >= vvv.size()) return 0;
-    if (dp[i][j] != -1) return dp[i][j];
-    int ans = 0;
-    if (vv[i] == vvv[j])
-        ans = max (ans , 1 + lcs (i + 1 , j + 1));
-    ans = max (ans , lcs (i + 1 , j));
-    ans = max (ans , lcs (i , j + 1));
-    return dp[i][j] = ans;
+int main()
+{
+    while (scanf("%d %d %d", &C, &S, &Q) && (C || S || Q)) {
+        Initial();
+        int a, b, sound;
 
-}
-
-int main () {
-    int cs = 0;
-    while (getline (cin , fs)) {
-        vv.clear();
-        vvv.clear();
-        getline (cin , ls);
-        printf ("%2d. " , ++cs);
-        for (int i = 0; i < fs.size(); i++) {
-            if (!islower(fs[i]) && !isupper(fs[i]) && !isdigit(fs[i])) {
-                fs[i] = ' ';
-            }
+        for (int i = 0; i < S; ++i) {
+            scanf("%d %d %d", &a, &b, &sound);
+            dis[a][b] = sound, dis[b][a] = sound;
         }
-        for (int i = 0; i < ls.size(); i++) {
-            if (!islower(ls[i]) && !isupper(ls[i]) && !isdigit(ls[i])) {
-                ls[i] = ' ';
-            }
+
+        Floyd();
+
+        if (Case != 1) printf("\n");
+        printf("Case #%d\n", Case++);
+
+        for (int i = 0; i < Q; ++i) {
+            scanf("%d %d", &a, &b);
+            if (dis[a][b] == Inf)
+                puts("no path");
+            else
+                printf("%d\n", dis[a][b]);
         }
-        string ss , sss;
-        istringstream ssss (fs);
-        istringstream sssss (ls);
-        while (ssss >> ss) vv.push_back(ss);
-        while (sssss >> sss) vvv.push_back(sss);
-        if (vv.size() == 0 || vvv.size() == 0) {
-            cout << "Blank!" << endl;
-            continue;
-        }
-        memset (dp , -1 , sizeof (dp));
-        printf ("Length of longest match: %d\n" , lcs (0 , 0));
-        fs.clear();
-        ls.clear();
-        sss.clear();
-        ssss.clear();
-        sssss.clear();
     }
+}
+void Initial()
+{
+    for (int i = 1; i <= C; ++i){
+        for (int j = 1; j <= C; ++j)
+            dis[i][j] = Inf, dis[j][i] = Inf;
+        dis[i][i] = 0;
+    }
+}
+void Floyd()
+{
+    for (int k = 1; k <= C; ++k)
+        for (int i = 1; i <= C; ++i)
+            for (int j = 1; j <= C; ++j)
+                if (dis[i][j] > max(dis[i][k], dis[k][j]))
+                    dis[i][j] = max(dis[i][j], dis[k][j]);
 }
