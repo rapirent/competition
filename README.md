@@ -209,3 +209,7 @@
 - 1125:floyd
     - 就是floyd
     - **問題:為什麼不能使用-1作為inf?**
+- 1724:bellman-ford、SPFA
+    - 使用priority queue來得到花費最小, 每次加入一條不會造成花費超過的點
+    - 類似SPFA, 但比較多BFS
+    - **SPFA的觀念(BFS)還不太懂 要問**
