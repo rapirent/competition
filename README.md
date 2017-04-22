@@ -166,6 +166,8 @@
         - 但是如果把邊界設小..我的電腦雖然能執行但uva卻runtime error = =
 - 341:bellman-ford
     - 單純的bellman-ford, 不過要做字串處理(strtok), 而且還要使用stack
+- 10000:bellman-ford
+    - 把單源最短路徑(single source shortest path)問題換成單源最長路徑問題
 ## POJ
 
 - 2533:LIS
