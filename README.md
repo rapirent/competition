@@ -213,3 +213,5 @@
     - 使用priority queue來得到花費最小, 每次加入一條不會造成花費超過的點
     - 類似SPFA, 但比較多BFS
     - **SPFA的觀念(BFS)還不太懂 要問**
+- 2387:bellman-ford
+    - 就是bellman-ford找有無無限環
