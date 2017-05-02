@@ -178,6 +178,8 @@
 - 315:component
     - 直接套用Articulation的模板即可
     - 這題....中間輸入的邊敘述不一定只有N個, 喵的題目騙我
+- 459:字串處理、disjoint set
+    - ...重點就是字串處理...以後都用gets或fgets讀進來處理!!!
 ## POJ
 
 - 2533:LIS
