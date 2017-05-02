@@ -175,11 +175,14 @@
     - 記住只有在找到鬆弛後可以加入的邊時才能夠把邊加入queue
         - 吃了七次TLE...
         - 也就是判斷鬆弛條件的if必須包住該邊是否在queue中的if
-- 315:component
+- 315:component、articulation
     - 直接套用Articulation的模板即可
     - 這題....中間輸入的邊敘述不一定只有N個, 喵的題目騙我
 - 459:字串處理、disjoint set
     - ...重點就是字串處理...以後都用gets或fgets讀進來處理!!!
+- 10199:字串處理、articulation
+    - 善用map，將string轉成index再轉回string
+    - sort(vector.begin(),vector.end())
 ## POJ
 
 - 2533:LIS
