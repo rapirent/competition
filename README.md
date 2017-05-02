@@ -187,6 +187,9 @@
     - 套用kosaraju的模板
     - 善用map，將string轉成index再轉回string
     - 字典序不重要
+- 11504:kosaraju
+    - 套用kosaraju模板
+    - 使用vector，倒轉時還是使用
 ## POJ
 
 - 2533:LIS
