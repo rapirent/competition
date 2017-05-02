@@ -183,6 +183,10 @@
 - 10199:字串處理、articulation
     - 善用map，將string轉成index再轉回string
     - sort(vector.begin(),vector.end())
+- 247:kosaraju
+    - 套用kosaraju的模板
+    - 善用map，將string轉成index再轉回string
+    - 字典序不重要
 ## POJ
 
 - 2533:LIS
