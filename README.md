@@ -193,6 +193,9 @@
 - 11709:kosaraju
     - 如果使用adjancy list來存邊，可以另外加入reverse adjancy list來存顛倒邊
     - ...這題因為我沒考慮到可能第一個輸入有可能p或t為0而吃了十幾個WA
+- 10765:kosaraju
+    - poj1523的變形，求articulation拿掉後可以產生的最大元件數，並且輸出好幾種選擇
+    - 每個輸出完都要放一個空行, 吃了一次PE
 ## POJ
 
 - 2533:LIS
