@@ -241,7 +241,8 @@
     - **SPFA的觀念(BFS)還不太懂 要問**
 - 2387:bellman-ford
     - 就是bellman-ford找有無無限環
-
+- 1523:articulation
+    - 直接套用articulation的模板，只是這次再找到articulation的同時，將拜訪此articulation的次數紀錄起來，即為拿掉articulation後的元件數
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
