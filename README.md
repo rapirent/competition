@@ -243,6 +243,9 @@
     - 就是bellman-ford找有無無限環
 - 1523:articulation
     - 直接套用articulation的模板，只是這次再找到articulation的同時，將拜訪此articulation的次數紀錄起來，即為拿掉articulation後的元件數
+- 2117:articulation
+    - 1523的延伸，因為一開始圖有可能就是不連通得，所以結果為「一開始的連通圖數量+拿掉articulation後的最大元件數-1」
+    - 要考慮c==0的情況
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
