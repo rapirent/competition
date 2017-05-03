@@ -190,6 +190,9 @@
 - 11504:kosaraju
     - 套用kosaraju模板
     - 使用vector，倒轉時還是使用
+- 11709:kosaraju
+    - 如果使用adjancy list來存邊，可以另外加入reverse adjancy list來存顛倒邊
+    - ...這題因為我沒考慮到可能第一個輸入有可能p或t為0而吃了十幾個WA
 ## POJ
 
 - 2533:LIS
