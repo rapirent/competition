@@ -200,6 +200,17 @@
     - 套用模組，以low和dfn來算出bridge
     - 找到bridge後把此bridge當作雙向邊加入答案，並於邊集合中去掉，再行一次dfs拜訪，紀錄拜訪的邊並加入此單向邊（也要去掉此邊代表的雙向邊於集合）
     - 範例輸出的dfs順序不需要全照...只要題意符合即可
+- 796:bridge
+    - 套用bridge模板
+    - 這題一直WA..原來是struct 的sort沒寫好，當from的點相等時要比較to的點
+    ```
+    bool operator< (const node& a) const {
+        if(from==a.from) {
+            return to<a.to;
+        }
+        return from<a.from;
+    }
+    ```
 ## POJ
 
 - 2533:LIS

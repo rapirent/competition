@@ -1,56 +1,90 @@
+#include <algorithm>
+#include <iostream>
 #include <cstdio>
 #include <vector>
-#include <queue>
+
 using namespace std;
-#define INF 999999999
-struct Weight_type{
-    int P;
-    int W;
-};
+
+typedef pair<int, int> pr;
+#define x first
+#define y second
+
+pr mk(int x, int y)
+{
+    if( x > y ) swap(x, y);
+    return pr(x, y);
+}
+
+vector<int> v[2000000];
+bool visit[2000000];
+vector<pr> Ans;
+
+int N;
+
+int id[2000000];
+int low[2000000];
+int clk;
+
+void DFS(int O, int P)
+{
+    visit[O] = true;
+    id[O] = low[O] = ++clk;
+
+    for(int vi = 0; vi < v[O].size(); vi++)
+    {
+        int t = v[O][vi];
+
+        if( t == P ) continue;
+
+        if( visit[t] ) low[O] = min(low[O], id[t]);
+        else
+        {
+            DFS(t, O);
+            low[O] = min(low[O], low[t]);
+
+            if( low[t] > id[O] ) Ans.push_back(mk(O, t) );
+        }
+    }
+}
+
 int main()
 {
-    int Case = 1, C, N, M, S, T;
-    scanf("%d", &C);
-    while (C--)
+    while( scanf("%d", &N) != EOF )
     {
-        scanf("%d %d %d %d", &N, &M, &S, &T);
-        vector<Weight_type> toNxt[20001];
-        for (int i = 0, x, y, L; i < M; ++i) {
-            scanf("%d %d %d", &x, &y, &L);
-            toNxt[x].push_back({y,L});
-            toNxt[y].push_back({x,L});
-        }
 
-        queue<int> Q;
-        int Dis[20001];
-        int inQueue[20001] = {0};
-        int Count[20001] = {0};  // avoid infinite cycle
-        for (int i = 0; i < N; ++i)
-            Dis[i] = INF;
-        Dis[S] = 0;
-        inQueue[S] = true;
-        Q.push(S);
+        Ans.clear();
+        clk = 0;
 
-        bool InfCycle = false;
-        while (!Q.empty() && !InfCycle) {
-            int now = Q.front();
-            inQueue[now] = false;
-            Q.pop();
+        for(int Ni = 0; Ni < N; Ni++)
+            v[Ni].clear(), visit[Ni] = false;
 
-            for (auto &nxt : toNxt[now]) {
-                if (Dis[now] + nxt.W < Dis[nxt.P]) {
-                    Dis[nxt.P] = Dis[now] + nxt.W;
-                    if (!inQueue[nxt.P]) {
-                        Q.push(nxt.P);
-                        inQueue[nxt.P] = true;
-                        ++Count[nxt.P];
-                        if (Count[nxt.P] >= N) InfCycle = true;
-                    }
-                }
+        for(int Ni = 0; Ni < N; Ni++)
+        {
+            int p;
+            scanf("%d", &p);
+
+            int K;
+            scanf(" (%d)", &K);
+
+            for(int Ki = 0; Ki < K; Ki++)
+            {
+                int q;
+                scanf("%d", &q);
+
+                v[p].push_back(q);
             }
         }
-        printf("Case #%d: ", Case++);
-        if (Dis[T] == INF) puts("unreachable");
-        else printf("%d\n", Dis[T]);
+
+        for(int Ni = 0; Ni < N; Ni++)
+            if( !visit[Ni] ) DFS(Ni, Ni);
+
+        printf("%d critical links\n", Ans.size());
+
+        sort(Ans.begin(), Ans.end());
+
+        for(int Ai = 0; Ai < Ans.size(); Ai++)
+            printf("%d - %d\n", Ans[Ai].x, Ans[Ai].y);
+
+        puts("");
     }
 }
