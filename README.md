@@ -211,6 +211,9 @@
         return from<a.from;
     }
     ```
+- 11838:scc、kosaraju
+    - 套用kosaraju模板，如果只找到一個scc，那麼就是連通圖!（輸出1）
+        - 沒有的話就是錯（輸出0）
 ## POJ
 
 - 2533:LIS
