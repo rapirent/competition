@@ -214,6 +214,8 @@
 - 11838:scc、kosaraju
     - 套用kosaraju模板，如果只找到一個scc，那麼就是連通圖!（輸出1）
         - 沒有的話就是錯（輸出0）
+- 12783:bridge
+    - 套用bridge模板和struct 的sort
 ## POJ
 
 - 2533:LIS
