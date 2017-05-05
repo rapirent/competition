@@ -3,5 +3,4 @@ poj1094
 uva11876
 poj2185
 uva10034
-uva11770
 poj1236

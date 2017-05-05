@@ -216,6 +216,9 @@
         - 沒有的話就是錯（輸出0）
 - 12783:bridge
     - 套用bridge模板和struct 的sort
+- 11770:scc、kosaraju
+    - 同poj2553，這次是找入度為0的SCC
+    - 題目太大，改用adjancy list
 ## POJ
 
 - 2533:LIS
