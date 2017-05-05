@@ -272,6 +272,10 @@
 - 2117:articulation
     - 1523的延伸，因為一開始圖有可能就是不連通得，所以結果為「一開始的連通圖數量+拿掉articulation後的最大元件數-1」
     - 要考慮c==0的情況
+- 2553:kosaraju、scc
+    - 找出度為0的SCC（其實這題我看不太懂...看網路上別人提醒要找出度為0才理解)
+    - 基本上可以使用kosaraju找出所有SCC，再以三層for迴圈（因為我是用adjancy matrix）進行每個邊的迭代測試，剔除有指向其他SCC的SCC
+        - 非常慢，但反正AC了
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
