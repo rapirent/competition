@@ -279,6 +279,8 @@
     - 找出度為0的SCC（其實這題我看不太懂...看網路上別人提醒要找出度為0才理解)
     - 基本上可以使用kosaraju找出所有SCC，再以三層for迴圈（因為我是用adjancy matrix）進行每個邊的迭代測試，剔除有指向其他SCC的SCC
         - 非常慢，但反正AC了
+- 2186:kosaraju、SCC
+    - 和2553一樣，找出度為0的SCC中的點個數，注意只能有一個，如果有超過兩個出度為0的SCC則輸出0
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
