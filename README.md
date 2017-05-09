@@ -293,6 +293,11 @@
     - 就是kruskal模板...只要印出最後一個進入kruskal的MST之邊的邊長即可
 - 2421:MST、kruskal
     - 就是kruskal模板，只是這次將已經蓋好的路的長度標為0，使它一定被加入MST
+- 1751:MST、kruskal
+    - 跟2421很像, 就是kruskal模板，已經蓋好的路長度標為0
+    - 輸出不用照順序
+    - pow的第一個參數記得引入(double)，否則會有像是pow(9,9)的錯誤
+        - pow(int, int)在math.h中被刪除(removed from math.h in the CRT)
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
