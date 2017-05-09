@@ -291,7 +291,8 @@
     - 就是kruskal模板
 - 2395:MST、kruskal
     - 就是kruskal模板...只要印出最後一個進入kruskal的MST之邊的邊長即可
-
+- 2421:MST、kruskal
+    - 就是kruskal模板，只是這次將已經蓋好的路的長度標為0，使它一定被加入MST
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
