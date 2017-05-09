@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int set[110];
+int set[600];
 int find(int x)
 {
     return x==set[x]?x:(set[x] = find(set[x]));
@@ -26,7 +26,6 @@ struct edge {
     }
 };
 
-int edge_init[110][110];
 vector<struct edge> edge_list;
 int main(void)
 {
@@ -35,46 +34,35 @@ int main(void)
     int a,b;
     int q;
     int sum;
-    while(scanf("%d",&n)!=EOF) {
+    int case_num;
+    scanf("%d",&case_num);
+    while(case_num--) {
+        scanf("%d",&n);
         for(int i = 0;i<=n;i++) {
             set[i] = i;
         }
         sum = 0;
-        memset(edge_init,-1,sizeof(edge_init));
         edge_list.clear();
         for(int i = 1;i<=n;i++) {
             for(int j = 1;j<=n;j++) {
                 scanf("%d",&input);
                 if(input) {
-                    edge_init[i][j] = input;
-                }
-            }
-        }
-        scanf("%d",&q);
-        int count = 0;
-        for(int i = 0;i<q;i++) {
-            scanf("%d %d",&a,&b);
-            //count++;
-            edge_init[a][b] = 0;
-        }
-        for(int i = 1;i<=n;i++) {
-            for(int j = 1;j<=n;j++) {
-                if(edge_init[i][j]!=-1) {
                     struct edge tmp;
                     tmp.from = i;
                     tmp.to = j;
-                    tmp.length = edge_init[i][j];
-                    edge_list.push_back(tmp);
+                    tmp.length = input;
+                    edge_list.push_back(tmp); 
                 }
             }
         }
+        int count = 0;
         sort(edge_list.begin(),edge_list.end());
         for(int j = 0; count<n-1&&j<edge_list.size(); count++,j++) {
             while(find(edge_list[j].from)==find(edge_list[j].to)) {
                 j++;
             }
             union_node(edge_list[j].from,edge_list[j].to);
-            sum+=edge_list[j].length;
+            sum = edge_list[j].length;
         }
         printf("%d\n",sum);
     }
