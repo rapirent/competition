@@ -221,6 +221,8 @@
     - 題目太大，改用adjancy list
 - 10034:MST、kruskal
     - 先存下每個點，再算出每個點和其他點之間的所有邊，加入edge陣列中排序，再從最小者到最大者使用kruskal
+- 10369:MST、kruskal
+    - 找出MST中第S長的邊即可
 ## POJ
 
 - 2533:LIS
