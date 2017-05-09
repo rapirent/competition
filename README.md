@@ -287,6 +287,8 @@
         - 非常慢，但反正AC了
 - 2186:kosaraju、SCC
     - 和2553一樣，找出度為0的SCC中的點個數，注意只能有一個，如果有超過兩個出度為0的SCC則輸出0
+- 1861:MST、kruskal
+    - 就是kruskal模板
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
