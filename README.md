@@ -223,6 +223,8 @@
     - 先存下每個點，再算出每個點和其他點之間的所有邊，加入edge陣列中排序，再從最小者到最大者使用kruskal
 - 10369:MST、kruskal
     - 找出MST中第S長的邊即可
+- 11597:MST
+    - 一個complete graph有n*(n-1)/2個邊(n個點)，而spanning tree最少需要(n-1)個邊，所以最多有n/2個spanning tree
 ## POJ
 
 - 2533:LIS
