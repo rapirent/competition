@@ -298,6 +298,9 @@
     - 輸出不用照順序
     - pow的第一個參數記得引入(double)，否則會有像是pow(9,9)的錯誤
         - pow(int, int)在math.h中被刪除(removed from math.h in the CRT)
+- 2560:MST、kruskal
+    - 跟uva10034一模一樣
+        - 除了不用開頭要求有幾個輸入
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
