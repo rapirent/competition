@@ -231,6 +231,7 @@
     - uva10147的變形，這次印出的不是所有後來建好路的邊的兩點，而是後來建好的路總長
 - 10842:MST、kruskal
     - 套用kruskal模板，只是找maximum spanning tree
+
 ## POJ
 
 - 2533:LIS
@@ -312,6 +313,10 @@
     - 但改為先輸入會有幾次輸入，並且輸出MST中最大的邊長
 - 1258:MST、kruskal
     - 套用kruskal模板，再讀取adjancy matrix時轉為模板中的邊
+- 2377:MST、kruskal
+    - kruskal，只是這次條件為掃過全部邊，看加入的集合中是否只有n-1個元素(邊)
+    - 如果是，則印出邊價格總和
+    - 如果不是則印出-1
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
