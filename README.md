@@ -317,6 +317,8 @@
     - kruskal，只是這次條件為掃過全部邊，看加入的集合中是否只有n-1個元素(邊)
     - 如果是，則印出邊價格總和
     - 如果不是則印出-1
+- 3625:MST、kruskal
+    - 將已經存在的點union起來，最後掃過所有的邊，看是否能加入kruskal，有則加入，並且加總其長度
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
