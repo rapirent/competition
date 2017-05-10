@@ -229,6 +229,8 @@
     - 就是poj1751
 - 10397:MST、kruskal
     - uva10147的變形，這次印出的不是所有後來建好路的邊的兩點，而是後來建好的路總長
+- 10842:MST、kruskal
+    - 套用kruskal模板，只是找maximum spanning tree
 ## POJ
 
 - 2533:LIS
