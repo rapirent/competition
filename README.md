@@ -225,6 +225,8 @@
     - 找出MST中第S長的邊即可
 - 11597:MST
     - 一個complete graph有n*(n-1)/2個邊(n個點)，而spanning tree最少需要(n-1)個邊，所以最多有n/2個spanning tree
+- 10147:MST、kruskal
+    - 就是poj1751
 ## POJ
 
 - 2533:LIS
