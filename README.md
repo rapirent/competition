@@ -227,6 +227,8 @@
     - 一個complete graph有n*(n-1)/2個邊(n個點)，而spanning tree最少需要(n-1)個邊，所以最多有n/2個spanning tree
 - 10147:MST、kruskal
     - 就是poj1751
+- 10397:MST、kruskal
+    - uva10147的變形，這次印出的不是所有後來建好路的邊的兩點，而是後來建好的路總長
 ## POJ
 
 - 2533:LIS
