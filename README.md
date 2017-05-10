@@ -308,7 +308,8 @@
 - 2485:MST、kruskal
     - 就是2421....
     - 但改為先輸入會有幾次輸入，並且輸出MST中最大的邊長
-        
+- 1258:MST、kruskal
+    - 套用kruskal模板，再讀取adjancy matrix時轉為模板中的邊
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
