@@ -231,6 +231,9 @@
     - uva10147的變形，這次印出的不是所有後來建好路的邊的兩點，而是後來建好的路總長
 - 10842:MST、kruskal
     - 套用kruskal模板，只是找maximum spanning tree
+- 820:max-flow、Edmons-Karp
+    - 套用edmons-karp模板，找出最大流流量
+    - 須注意這題兩點之間有多個邊，需要將其全部合併成單一邊...吃了兩個WA
 
 ## POJ
 
