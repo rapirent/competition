@@ -1,90 +1,64 @@
-#include <algorithm>
-#include <iostream>
 #include <cstdio>
-#include <vector>
-
+#include <cstring>
+#include <queue>
 using namespace std;
-
-typedef pair<int, int> pr;
-#define x first
-#define y second
-
-pr mk(int x, int y)
-{
-    if( x > y ) swap(x, y);
-    return pr(x, y);
-}
-
-vector<int> v[2000000];
-bool visit[2000000];
-vector<pr> Ans;
-
-int N;
-
-int id[2000000];
-int low[2000000];
-int clk;
-
-void DFS(int O, int P)
-{
-    visit[O] = true;
-    id[O] = low[O] = ++clk;
-
-    for(int vi = 0; vi < v[O].size(); vi++)
-    {
-        int t = v[O][vi];
-
-        if( t == P ) continue;
-
-        if( visit[t] ) low[O] = min(low[O], id[t]);
-        else
-        {
-            DFS(t, O);
-            low[O] = min(low[O], low[t]);
-
-            if( low[t] > id[O] ) Ans.push_back(mk(O, t) );
-        }
-    }
-}
-
+int cap[40][40], flow[40][40];
+int bottleneck[40], pre[40];
 int main()
 {
-    while( scanf("%d", &N) != EOF )
-    {
+    int T, Case = 1, N, M, K;
+    scanf("%d", &T);
+    while (T--) {
+        scanf("%d %d", &N, &M);
+        // Initial
+        int T = N+M+1;    // super sink
+        memset(cap, 0, sizeof(cap));
+        memset(flow, 0, sizeof(flow));
 
-        Ans.clear();
-        clk = 0;
-
-        for(int Ni = 0; Ni < N; Ni++)
-            v[Ni].clear(), visit[Ni] = false;
-
-        for(int Ni = 0; Ni < N; Ni++)
-        {
-            int p;
-            scanf("%d", &p);
-
-            int K;
-            scanf(" (%d)", &K);
-
-            for(int Ki = 0; Ki < K; Ki++)
-            {
-                int q;
-                scanf("%d", &q);
-
-                v[p].push_back(q);
+        // Input & Build graph
+        for (int i = 1; i <= N; ++i) {
+            scanf("%d", &K);
+            for (int j = 1, ki; j <= K; ++j) {
+                scanf("%d", &ki);
+                ++cap[i][N+ki];
             }
         }
+        for (int i = 2; i <= N; ++i) {
+            for (int j = N+1; j <= N+M; ++j) {
+                if (cap[i][j]) --cap[i][j];  // 如果有該貼紙, 保留一個絕對不會交換
+                else cap[j][i] = 1;       // 如果沒有, cap[j][i]容量為1表示可接受交換一個
+            }
+        }
+        for (int i = N+1; i <= N+M; ++i)     // 建立貼紙到T容量為1
+            cap[i][T] = 1;
 
-        for(int Ni = 0; Ni < N; Ni++)
-            if( !visit[Ni] ) DFS(Ni, Ni);
+        // Maximum Flow (bfs)
+        int result = 0;
+        while (1) {
+            memset(bottleneck, 0, sizeof(bottleneck));
+            queue<int> Q;
+            Q.push(1);
+            bottleneck[1] = 9999999;
 
-        printf("%d critical links\n", Ans.size());
+            while (!Q.empty() && !bottleneck[T]) {
+                int cur = Q.front(); Q.pop();
+                for (int nxt = 1; nxt <= T; ++nxt) {
+                    if (bottleneck[nxt] == 0 && cap[cur][nxt] > flow[cur][nxt]) {
+                        Q.push(nxt);
+                        pre[nxt] = cur;
+                        bottleneck[nxt] = min(bottleneck[cur], cap[cur][nxt] - flow[cur][nxt]);
+                    }
+                }
+            }
+            if (bottleneck[T] == 0) break;
 
-        sort(Ans.begin(), Ans.end());
-
-        for(int Ai = 0; Ai < Ans.size(); Ai++)
-            printf("%d - %d\n", Ans[Ai].x, Ans[Ai].y);
-
-        puts("");
+            for (int cur = T; cur != 1; cur = pre[cur]) {
+                flow[pre[cur]][cur] += bottleneck[T];
+                flow[cur][pre[cur]] -= bottleneck[T];
+            }
+            result += bottleneck[T];
+        }
+        // Output
+        printf("Case #%d: %d\n", Case++, result);
     }
 }
