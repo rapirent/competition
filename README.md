@@ -322,6 +322,11 @@
     - 如果不是則印出-1
 - 3625:MST、kruskal
     - 將已經存在的點union起來，最後掃過所有的邊，看是否能加入kruskal，有則加入，並且加總其長度
+- 2455:max-flow、edmons-karp
+    - 以二分搜尋找出constrain，再以此constrain訂出一張圖之capacity，進行max_flow查找
+        - 找出這些最大流流量的上界
+    - 查找後確認是否可以找到T條流，如果可以，則印出此上界
+
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
