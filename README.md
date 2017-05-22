@@ -342,7 +342,8 @@
     - 再將衣服設為節點，而與該人合身的衣服節點和該人都有一條權重為1的道路相連
     - 最後，每個衣服節點和匯點都有一條以數量為權重的道路
     - 只要最大流等於人數即可!!
-
+- 2536:bipartite graph matching
+    - 跟uva 10080一模一樣 
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
