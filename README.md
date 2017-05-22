@@ -246,6 +246,8 @@
         - 因為這樣才算走過該點，消耗了該點的容量
 - 10080:bipartite graph matching
     - 將能在時限內到達的洞和土撥鼠連接，做二分圖最大匹配，再將土撥鼠數量減去最大匹配數即為答案
+- 11138:bipartite graph matching
+    - 題目會輸入bolts、nuts，輸出他們之間（二分圖）的最大匹配
 ## POJ
 
 - 2533:LIS
