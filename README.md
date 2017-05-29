@@ -250,6 +250,9 @@
     - 題目會輸入bolts、nuts，輸出他們之間（二分圖）的最大匹配
 - 1194:bipartite graph matching
     - 跳過node0，計算除了node0外的二分最大匹配數即可
+- 11601:binary indexed tree
+    - 使用二維binary indexed tree（其實也可以暴力直接拿陣列存）
+    - 直接使用模板（不過演算法筆記的模板我看不太懂他的位元運算），記得計算面積時左下角到右上角其中一方需要減一
 ## POJ
 
 - 2533:LIS
