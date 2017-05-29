@@ -352,7 +352,9 @@
     - 跟uva 1194一模一樣
 - 2352:binary indexed tree
     - 模板+另外建一紀錄當前總數的陣列，每次更新
-
+- 3468:binary indexed tree
+    - 模板可解，但會超時，因為他的modify太多次了
+    - 網路上有人直接歸納出公式解，以兩個binary indexed陣列維護
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
