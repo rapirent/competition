@@ -350,6 +350,9 @@
     - 跟uva 10080一模一樣 
 - 1325:bipartite graph matching
     - 跟uva 1194一模一樣
+- 2352:binary indexed tree
+    - 模板+另外建一紀錄當前總數的陣列，每次更新
+
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
