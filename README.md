@@ -366,6 +366,8 @@
     - 二維binary indexed tree題目
     - 記得index要從1開始阿...不然會無窮迴圈, 所以呼叫模板時要加1
     - 陣列要開大...我開剛剛好(1024)結果吃了兩個WA
+- 2155:binary indexed tree
+    - 其實不太懂，不過就是把二維binary indexed tree的模組修改，使之儲存的為0和1，做的運算為和1^（not）
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
