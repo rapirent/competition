@@ -256,6 +256,8 @@
 - 191:Computational-Geometry
     - 套intersection模板，不過不要使用投影片教的判斷共線法，使用演算法筆記上的投影法
     - 卡超久= =
+- 218:Computational-geometry
+    - 直接套Andrew’s Monotone Chain模組
 ## POJ
 
 - 2533:LIS
