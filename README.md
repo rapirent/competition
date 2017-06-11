@@ -258,6 +258,11 @@
     - 卡超久= =
 - 218:Computational-geometry
     - 直接套Andrew’s Monotone Chain模組
+    - 但演算法筆記的模板需要修正，因為是當cross product >=02的時候才要修正
+- 10902:Computational-geometry
+    - 直接套intersection的投影法模板
+    - 先讀入所有的線段，然後兩層for迴圈將一個線段和其他者比較，如果沒有重疊則加入答案
+    - morris解這題時直接一邊讀入一邊修正已經讀入的數據, 猛= =
 ## POJ
 
 - 2533:LIS
