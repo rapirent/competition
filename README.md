@@ -263,6 +263,10 @@
     - 直接套intersection的投影法模板
     - 先讀入所有的線段，然後兩層for迴圈將一個線段和其他者比較，如果沒有重疊則加入答案
     - morris解這題時直接一邊讀入一邊修正已經讀入的數據, 猛= =
+- 596:Computational-geometry
+    - = =他的sample啥鬼的那串是要直接複製它輸入的！！！！！
+    - 其餘直接以Andrew's Monotone chain模板做即可
+    - 記得他的輸出格式要x優先，y其次，最後印出剩下的
 ## POJ
 
 - 2533:LIS
