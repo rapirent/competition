@@ -253,6 +253,9 @@
 - 11601:binary indexed tree
     - 使用二維binary indexed tree（其實也可以暴力直接拿陣列存）
     - 直接使用模板（不過演算法筆記的模板我看不太懂他的位元運算），記得計算面積時左下角到右上角其中一方需要減一
+- 191:Computational-Geometry
+    - 套intersection模板，不過不要使用投影片教的判斷共線法，使用演算法筆記上的投影法
+    - 卡超久= =
 ## POJ
 
 - 2533:LIS
