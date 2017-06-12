@@ -41,16 +41,24 @@ vector<point> CHAMC(vector<point> P) {
 	int n = P.size();
 	for (int i = 0; i < n; i++) {
 		while (H.size() >= 2
-				&& cross(H[H.size() - 2], H[H.size() - 1], P[i]) <= 0)
-			H.pop_back();
+				&& cross(H[H.size() - 2], H[H.size() - 1], P[i]) <= 0) {
+			point a = H.back();
+            H.pop_back();
+            printf("pop P x = %.0lf y = %.0lf\n",a.x,a.y);
+        }
 		H.push_back(P[i]);
+        printf("push P[%d] x = %.0lf y = %.0lf\n",i,P[i].x,P[i].y);
 	}
 	int l = H.size() + 1;
 	for (int i = n - 1; i >= 0; i--) {
 		while (H.size() >= l
-				&& cross(H[H.size() - 2], H[H.size() - 1], P[i]) <= 0)
-			H.pop_back();
+				&& cross(H[H.size() - 2], H[H.size() - 1], P[i]) <= 0){
+			point a = H.back();
+            H.pop_back();
+            printf("pop P x = %.0lf y = %.0lf\n",a.x,a.y);
+        }
 		H.push_back(P[i]);
+        printf("push P[%d] x = %.0lf y = %.0lf\n",i,P[i].x,P[i].y);
 	}
 	return H;
 }

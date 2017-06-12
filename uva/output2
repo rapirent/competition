@@ -1,19 +1,138 @@
-17
--
-13091984
-125909470
-389054618
-644021011
-694647582
-923849393
-994690063
-1040627854
-1076069512
-1110842238
-1141726537
-1355469954
-1515539776
-1534876392
-1795057301
-1988172767
-2043820790
+3
+push P[0] x = 60 y = 20
+push P[1] x = 30 y = 30
+pop P x = 30 y = 30
+push P[2] x = 30 y = 30
+pop P x = 30 y = 30
+push P[3] x = 33 y = 35
+pop P x = 33 y = 35
+push P[4] x = 86 y = 39
+push P[5] x = 36 y = 40
+pop P x = 36 y = 40
+push P[6] x = 70 y = 45
+pop P x = 70 y = 45
+pop P x = 86 y = 39
+push P[7] x = 250 y = 50
+push P[8] x = 50 y = 60
+pop P x = 50 y = 60
+push P[9] x = 112 y = 60
+pop P x = 112 y = 60
+push P[10] x = 47 y = 76
+pop P x = 47 y = 76
+push P[11] x = 200 y = 113
+push P[12] x = 76 y = 150
+pop P x = 76 y = 150
+pop P x = 200 y = 113
+push P[13] x = 300 y = 200
+push P[14] x = 130 y = 240
+push P[14] x = 130 y = 240
+pop P x = 130 y = 240
+push P[13] x = 300 y = 200
+pop P x = 300 y = 200
+push P[12] x = 76 y = 150
+push P[11] x = 200 y = 113
+pop P x = 200 y = 113
+push P[10] x = 47 y = 76
+push P[9] x = 112 y = 60
+pop P x = 112 y = 60
+push P[8] x = 50 y = 60
+push P[7] x = 250 y = 50
+pop P x = 250 y = 50
+push P[6] x = 70 y = 45
+pop P x = 70 y = 45
+pop P x = 50 y = 60
+push P[5] x = 36 y = 40
+push P[4] x = 86 y = 39
+pop P x = 86 y = 39
+pop P x = 36 y = 40
+push P[3] x = 33 y = 35
+pop P x = 33 y = 35
+push P[2] x = 30 y = 30
+pop P x = 30 y = 30
+push P[1] x = 30 y = 30
+push P[0] x = 60 y = 20
+8
+60 20
+250 50
+300 200
+130 240
+76 150
+47 76
+30 30
+60 20
+-1
+push P[0] x = 60 y = 20
+push P[1] x = 70 y = 45
+push P[2] x = 50 y = 60
+pop P x = 50 y = 60
+push P[3] x = 50 y = 60
+pop P x = 50 y = 60
+pop P x = 70 y = 45
+push P[4] x = 100 y = 70
+push P[5] x = 60 y = 85
+pop P x = 60 y = 85
+pop P x = 100 y = 70
+push P[6] x = 125 y = 90
+pop P x = 125 y = 90
+push P[7] x = 200 y = 113
+push P[8] x = 79 y = 140
+pop P x = 79 y = 140
+push P[9] x = 105 y = 140
+pop P x = 105 y = 140
+pop P x = 200 y = 113
+push P[10] x = 250 y = 140
+push P[11] x = 180 y = 170
+push P[11] x = 180 y = 170
+pop P x = 180 y = 170
+push P[10] x = 250 y = 140
+pop P x = 250 y = 140
+push P[9] x = 105 y = 140
+pop P x = 105 y = 140
+push P[8] x = 79 y = 140
+push P[7] x = 200 y = 113
+pop P x = 200 y = 113
+push P[6] x = 125 y = 90
+pop P x = 125 y = 90
+push P[5] x = 60 y = 85
+push P[4] x = 100 y = 70
+pop P x = 100 y = 70
+pop P x = 60 y = 85
+push P[3] x = 50 y = 60
+pop P x = 50 y = 60
+push P[2] x = 50 y = 60
+push P[1] x = 70 y = 45
+pop P x = 70 y = 45
+push P[0] x = 60 y = 20
+6
+60 20
+250 140
+180 170
+79 140
+50 60
+60 20
+-1
+push P[0] x = 60 y = 20
+push P[1] x = 60 y = 20
+pop P x = 60 y = 20
+push P[2] x = 50 y = 60
+pop P x = 50 y = 60
+push P[3] x = 79 y = 140
+pop P x = 79 y = 140
+push P[4] x = 250 y = 140
+push P[5] x = 180 y = 170
+push P[5] x = 180 y = 170
+pop P x = 180 y = 170
+push P[4] x = 250 y = 140
+pop P x = 250 y = 140
+push P[3] x = 79 y = 140
+push P[2] x = 50 y = 60
+push P[1] x = 60 y = 20
+pop P x = 60 y = 20
+push P[0] x = 60 y = 20
+6
+60 20
+250 140
+180 170
+79 140
+50 60
+60 20

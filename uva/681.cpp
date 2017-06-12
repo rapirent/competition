@@ -10,10 +10,10 @@ using namespace std;
 const double eps = 1e-9;
 
 struct point {
-    double x;
-    double y;
+    int x;
+    int y;
     bool operator<(const point& a) const {
-        if(fabs(x-a.y) > eps) {
+        if(y!=a.y) {
             return y<a.y;
         }
         return x<a.x;
@@ -21,25 +21,32 @@ struct point {
 };
 vector<struct point>point_set;
 vector<struct point>result;
-double cross(const point& o, const point&a ,const point &b)
+int cross(const point& o, const point&a ,const point &b)
 {
 
 	return (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
 }
-void monotone(int num)
+int monotone(int num)
 {
-    for(int i = 0;i<point_set.size();i++) {
-        if(result.size()>=2 && cross(result[result.size()-2],result[result.size()-1],point_set[i])<=0.0) {
+    int m = 0;
+    int len = point_set.size();
+    for(int i = 0;i<len;i++) {
+        while(m>=2 && cross(result[m-2],result[m-1],point_set[i])<=0) {
             result.pop_back();
+            m--;
         }
         result.push_back(point_set[i]);
+        m++;
     }
-    for(int i = point_set.size()-1 , t=result.size()+1;i>=0;i--) {
-        if(result.size()>=t && cross(result[result.size()-2],result[result.size()-1],point_set[i])<=0.0) {
+    for(int i = len-1 , t=m+1;i>=0;i--) {
+        while(m>=t && cross(result[m-2],result[m-1],point_set[i])<=0) {
             result.pop_back();
+            m--;
         }
         result.push_back(point_set[i]);
+        m++;
     }
+    return m;
 }
 
 int main(void)
@@ -52,14 +59,11 @@ int main(void)
     int m;
     double x,y;
     while(case_num--) {
-        result.clear();
         scanf("%d",&num);
         point_set.clear();
         for(int i = 0;i<num;i++) {
             struct point tmp;
-            scanf("%lf %lf",&x,&y);
-            tmp.x = x;
-            tmp.y = y;
+            scanf("%d %d",&tmp.x,&tmp.y);
             point_set.push_back(tmp);
         }
         if(case_num) {
@@ -68,10 +72,10 @@ int main(void)
         }
         sort(point_set.begin(),point_set.end());
         result.clear();
-        monotone(num);
-        printf("%d\n",(int)result.size());
-        for(int i = 0;i<(int)result.size();i++) {
-            printf("%.0lf %.0lf\n",result[i].x,result[i].y);
+        m = monotone(num);
+        printf("%d\n",m);
+        for(int i = 0;i<m;i++) {
+            printf("%d %d\n",result[i].x,result[i].y);
         }
         if(case_num) {
             printf("-1\n");

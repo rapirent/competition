@@ -267,6 +267,9 @@
     - = =他的sample啥鬼的那串是要直接複製它輸入的！！！！！
     - 其餘直接以Andrew's Monotone chain模板做即可
     - 記得他的輸出格式要x優先，y其次，最後印出剩下的
+- 681:Computational-geometry
+    - 套用Andrew's Monotone chain即可
+    - 我把while寫成if而de了四五個小時..
 ## POJ
 
 - 2533:LIS
