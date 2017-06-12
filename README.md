@@ -274,6 +274,10 @@
     - 套用Andrew's Monotone chain即可
     - 但是要將原本輸入的座標點全部紀錄下來，並且在套用monotone chain後和結果互相比較，找到第一個進入Convex Hull者作輸出，接著依序輸出，輸出到底時從頭開始
     - 我把while寫成if而de了五六個小時...
+- 11626:Computational-geometry
+    - Andrew's monotone chain
+    - 忽略共線(==0)
+    - 排序先排x座標，再排y
 ## POJ
 
 - 2533:LIS
