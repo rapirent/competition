@@ -282,6 +282,8 @@
     - 記得輸入的兩個數字可能是先大後小
 - 11462:sort
     - 直接拿algorithm中的sort即可解決
+- 10583:disjoint-set
+    - 直接套用disjoint-set模板即可
 ## POJ
 
 - 2533:LIS
@@ -397,6 +399,8 @@
     - 陣列要開大...我開剛剛好(1024)結果吃了兩個WA
 - 2155:binary indexed tree
     - 其實不太懂，不過就是把二維binary indexed tree的模組修改，使之儲存的為0和1，做的運算為和1^（not）
+- 1000:math
+    - 直接印出輸入的a b之a+b即可
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
