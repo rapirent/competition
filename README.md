@@ -278,6 +278,8 @@
     - Andrew's monotone chain
     - 忽略共線(==0)
     - 排序先排x座標，再排y
+- 100:math
+    - 記得輸入的兩個數字可能是先大後小
 ## POJ
 
 - 2533:LIS

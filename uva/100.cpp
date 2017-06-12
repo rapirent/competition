@@ -27,7 +27,7 @@ int main(void)
     while(scanf("%d %d",&a,&b)!=EOF) {
         printf("%d %d ",a,b);
         max_num = -1;
-        for(int i = a;i<=b;i++) {
+        for(int i = min(a,b);i<=max(a,b);i++) {
             if(max_num<(now_cycle = cycle(i))) {
                 max_num = now_cycle;
             }
