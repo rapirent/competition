@@ -29,7 +29,7 @@ int monotone_chain()
     sort(point_set.begin(),point_set.end());
     int m = 0;
     for(int i = 0; i<point_set.size();i++) {
-        if(m>=2&&cross(result[m-2],result[m-1],point_set[i])<=0) {
+        while(m>=2&&cross(result[m-2],result[m-1],point_set[i])<=0) {
             m--;
         }
         result[m++] = point_set[i];
