@@ -23,14 +23,19 @@ double cross(const point& o, const point& a, const point& b)
 
 void monotone()
 {
-    sort(point_set.begin(),point_set.end());
     result.clear();
     int len = point_set.size()-1;
+    
     double area_poly = 0.0;
     int m = 0;
+    struct point tmp;
+    tmp.x = 0.0;
+    tmp.y = 0.0;
     for(int i = 0;i<len;i++) {
-        area_poly+=cross(point_set[0],point_set[i],point_set[i+1]);
+        area_poly+=cross(tmp,point_set[i],point_set[i+1]);
     }
+    point_set.pop_back();
+    sort(point_set.begin(),point_set.end());
     for(int i = 0;i<len;i++) {
         while(m>=2&&cross(result[m-2],result[m-1],point_set[i])<=0) {
             m--;
@@ -49,7 +54,7 @@ void monotone()
     }
     double area_hull = 0.0;
     for(int i = 0;i<m-1;i++) {
-        area_hull+=cross(result[0],result[i],result[i+1]);
+        area_hull+=cross(tmp,result[i],result[i+1]);
     }
     area_poly = fabs(area_poly)/2;
     area_hull = fabs(area_hull)/2;
@@ -62,9 +67,6 @@ int main(void)
     struct point input;
     int case_num = 0;
     while(scanf("%d",&num)!=EOF&&num!=0) {
-        if(case_num) {
-            puts("");
-        }
         point_set.clear();
         for(int i = 0;i<num;i++) {
             scanf("%lf %lf",&input.x,&input.y);
@@ -73,7 +75,7 @@ int main(void)
         point_set.push_back(point_set.front());
         printf("Tile #%d\n",++case_num);
         monotone();
-
+        puts("");
     }
     return 0;
 }

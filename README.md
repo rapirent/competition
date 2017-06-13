@@ -287,6 +287,10 @@
 - 10078:computational-geometry
     - 原本要直接套用andrew's monotone chain來比對(假如找到凸包中的點數量一樣則對)
     - 但一直錯，就直接比對所有的外積是否一致大於零或小於零
+- 10065:computational-geometry
+    - 直接套用andrew's monotone chain
+    - 除此之外，還要計算原本的多邊形和凸包的面積，在此可以直接計算各點的外積相加除二即可（但起點座標記得要一樣）
+    - 計算多邊形和凸包的比例（就是多邊形少了多少比例的面積）
 ## POJ
 
 - 2533:LIS
