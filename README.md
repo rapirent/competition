@@ -284,6 +284,9 @@
     - 直接拿algorithm中的sort即可解決
 - 10583:disjoint-set
     - 直接套用disjoint-set模板即可
+- 10078:computational-geometry
+    - 原本要直接套用andrew's monotone chain來比對(假如找到凸包中的點數量一樣則對)
+    - 但一直錯，就直接比對所有的外積是否一致大於零或小於零
 ## POJ
 
 - 2533:LIS
