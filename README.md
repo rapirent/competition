@@ -426,6 +426,11 @@
 - 1298:string
     - 後退五位（不是前進五位），而A～E則要後退四位再前進90位
     - 為了strcmp搞了很久，應該判斷到\0，所以改用strncmp
+- 1450:math
+    - 如果輸入n、m都是奇數，則輸出n*m+1.414 - 1
+    - 如果不是則輸出n*m
+    - 需要轉型成double!
+    - 其實我懶的看題目...看網路上別人推的結論解的
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
