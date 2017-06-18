@@ -423,6 +423,9 @@
     - 直接印出輸入的a b之a+b即可
 - 1004:math
     - 直接印出十二個數的平均即可
+- 1298:string
+    - 後退五位（不是前進五位），而A～E則要後退四位再前進90位
+    - 為了strcmp搞了很久，應該判斷到\0，所以改用strncmp
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
