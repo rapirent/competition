@@ -303,7 +303,9 @@
     - 看不懂其中一個對岸寫的解答：http://blog.csdn.net/shuangde800/article/details/11273123
 - 10220:dynamic-programming、big-number
     - 大數運算加上以陣列紀錄下當前的結果，並另開一個陣列計算總和
-
+- 10685:disjoint-set
+    - 套用disjoint-set模板，加上map來將string轉成對應的index，只是注意有可能union兩個原本就在同個set中的元素！
+        - 所以得判斷是不是同一個set，不是才union
 ## POJ
 
 - 2533:LIS
