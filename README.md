@@ -437,6 +437,8 @@
     - 直接使用algorithm的sort配合vector，執行兩次sort，第一次先按照ai再按照bi排序（由大到小），第二次先按照bi再按照ai，最後印出排序後的第一個元素的編號
 - 3262:sort
     - 修改uva 10026而來，其實我也不知道是怎樣..
+- 2159:sort
+    - 將每個字母減去'A'後的字數算出來再sort比對（其實也不用減去...不過懶的嘗試了）
 ## ICPC
 - 4262:SCC、kosaraju
     - 就是kosaraju，記得使用vector作為topo order時，最後一個index為topo.size()-1
