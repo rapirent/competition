@@ -306,6 +306,8 @@
 - 10685:disjoint-set
     - 套用disjoint-set模板，加上map來將string轉成對應的index，只是注意有可能union兩個原本就在同個set中的元素！
         - 所以得判斷是不是同一個set，不是才union
+- 10474:binary-search、sort
+    - 排序完再用lower_bound找有沒有這個元素和它是第幾個元素
 ## POJ
 
 - 2533:LIS
