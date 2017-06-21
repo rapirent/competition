@@ -1,0 +1,1027 @@
+
+100 - Volume C
+題號	標題	難度	參考解題方向	備註
+10000	Longest Paths	2.5	DP, DAG, Longest-path	lucky 貓
+10001	Garden of Eden			
+10002	Center of Masses	3.0	Computational geometry, Convex hull, Centroid	lucky 貓
+10003	Cutting Sticks			lucky 貓
+10004	Bicoloring			lucky 貓
+10005	Packing polygons			
+10006	Carmichael Numbers			lucky 貓
+10007	Count the Trees			lucky 貓
+10008	What's Cryptanalysis?			lucky 貓
+10009	All Roads Lead Where?			
+10010	Where's Waldorf?			lucky 貓
+10011	Where Can You Hide?			
+10012	How Big Is It?			
+10013	Super long sums			
+10014	Simple calculations			lucky 貓
+10015	Joseph's Cousin			lucky 貓
+10016	Flip-Flop the Squarelotron			
+10017	The Never Ending Towers of Hanoi			lucky 貓
+10018	Reverse and Add			lucky 貓
+10019	Funny Encryption Method		
+ruby 兔
+10020	Minimal coverage			
+10021	Cube in the labirint			
+10022	Delta-wave			
+10023	Square root			lucky 貓
+10024	Curling up the cube			
+10025	The ? 1 ? 2 ? ... ? n = k problem			lucky 貓
+10026	Shoemaker's Problem			lucky 貓
+10027	Language Cardinality			
+10028	Demerit Points			
+10029	Edit Step Ladders			
+10030	Computer Dialogue			
+10031	Saskatchewan			
+10032	Tug of War			lucky 貓
+10033	Interpreter		
+ruby 兔
+10034	Freckles			lucky 貓
+10035	Primary Arithmetic	1.0	Ad hoc, Addition	lucky 貓
+10036	Divisibility	2.5	DP, Modular arithmatic, Subset sum	lucky 貓
+10037	Bridge			lucky 貓
+10038	Jolly Jumpers	1.0	Ad-hoc	lucky 貓
+10039	Railroads			
+10040	Ouroboros Snake			
+10041	Vito's Family	1.0	Ad hoc, Median	lucky 貓
+10042	Smith Numbers			lucky 貓
+10043	Chainsaw Massacre			
+10044	Erdos Numbers			
+10045	Echo			
+10046	Fold-up Patterns			
+10047	The Monocycle			
+10048	Audiophobia			lucky 貓
+10049	Self-describing Sequence			lucky 貓
+10050	Hartals		
+ruby 兔
+10051	Tower of Cubes			
+10052	Inviting Politicians			
+10053	Envelopes			
+10054	The Necklace			
+10055	Hashmat the Brave Warrior	1.0	Ad hoc, Comparison operation	lucky 貓
+10056	What is the Probability ?			lucky 貓
+10057	A mid-summer night's dream.			lucky 貓
+10058	Jimmy's Riddles			
+10059	The Hazard of CSE Department!			
+10060	A hole to catch a man			
+10061	How many zero's and how many digits ?			
+10062	Tell me the frequencies!			lucky 貓
+10063	Knuth's Permutation			lucky 貓
+10064	Travelling in another Dimension			
+10065	Useless Tile Packers			
+10066	The Twin Towers	2.5	DP, LCS	lucky 貓
+10067	Playing with Wheels			lucky 貓
+10068	The Treasure Hunt			
+10069	Distinct Subsequences	3.0	DP, String DP, Big number	ruby 兔
+10070	Leap Year or Not Leap Year and ...		
+ruby 兔
+10071	Back to High School Physics	1.0	Ad hoc, Arithmetic operation	lucky 貓
+10072	Bob Laptop Woolmer and Eddie Desktop Barlow			
+10073	Constrained Exchange Sort			
+10074	Take the Land	2.5	DP, Largest empty rectangle	lucky 貓
+10075	Airlines			
+10076	The Bumpy Robot			
+10077	The Stern-Brocot Number System		
+ruby 兔
+10078	The Art Gallery	2.5	Computational geometry, Test Convex	lucky 貓
+10079	Pizza Cutting	1.0	Math, Combination, Triangular number	lucky 貓
+10080	Gopher II			lucky 貓
+10081	Tight Words			lucky 貓
+10082	WERTYU	1.0	Ad hoc, String, Cryptography	lucky 貓
+10083	Division			lucky 貓
+10084	Hotter Colder			
+10085	The most distant state			
+10086	Test the Rods			
+10087	The Tajmahal of ++Y2k			
+10088	Trees on My Island			
+10089	Repackaging			
+10090	Marbles			lucky 貓
+10091	The Valentine's Day			
+10092	The Problem with the Problem Setter			
+10093	An Easy Problem!			lucky 貓
+10094	Place the Guards			
+10095	Saving the Planet			
+10096	The Richest Man of the Universe			
+10097	The Color Game			
+10098	Generating Fast, Sorted Permutation			lucky 貓
+10099	The Tourist Guide			lucky 貓
+101 - Volume CI
+題號	標題	難度	參考解題方向	備註
+10100	Longest Match			
+10101	Bangla Numbers			
+10102	The path in the colored field			lucky 貓
+10103	Karpovich blocks			
+10104	Euclid Problem			lucky 貓
+10105	Polynomial Coefficients			lucky 貓
+10106	Product	2.0	Big number, Multiplication	lucky 貓
+10107	What is the Median?			lucky 貓
+10108	The Mosquito Killer Mosquitos			
+10109	Solving Systems of Linear Equations			
+10110	Light, More Light	1.0	Math, Square root	lucky 貓
+10111	Find the Winning Move			
+10112	Myacm Triangles			lucky 貓
+10113	Exchange Rates			
+10114	Loansome Car Buyer			
+10115	Automatic Editing			
+10116	Robot Motion			
+10117	Nice Milk			
+10118	Free Candies			
+10119	Farewell, my friend			
+10120	Gift?!			lucky 貓
+10121	Legendary Pokemon			
+10122	Mysterious Mountain			
+10123	No Tipping			
+10124	Subway			
+10125	Sumsets			lucky 貓
+10126	Zipf's Law			lucky 貓
+10127	Ones			lucky 貓
+10128	Queue			lucky 貓
+10129	Play on Words			lucky 貓
+10130	SuperSale			ruby 兔
+10131	Is Bigger Smarter?	2.5	DP, LIS, DAG	lucky 貓
+10132	File Fragmentation			
+10133	Audubon's Stormy Arctic Trip			
+10134	AutoFish			
+10135	Herding Frosh			
+10136	Chocolate Chip Cookies			
+10137	The Trip	1.5	Ad hoc	lucky 貓
+10138	CDVII			
+10139	Factovisors			lucky 貓
+10140	Prime Distance			lucky 貓
+10141	Request for Proposal			lucky 貓
+10142	Australian Voting			lucky 貓
+10143	Loan			
+10144	Expression			
+10145	Lock Manager			
+10146	Dictionary			
+10147	Highways			lucky 貓
+10148	Clues			
+10149	Yahtzee			
+10150	Doublets			lucky 貓
+10151	Spaghetti			
+10152	ShellSort			lucky 貓
+10153	New Horizons			
+10154	Weights and Measures	2.5	DP, LIS (Like UVa 11003)	lucky 貓
+10155	Green Eggs and Ham			
+10156	Sala-ma-Sond, A Nice Little Pond			
+10157	Expressions			lucky 貓
+10158	War			
+10159	Star			
+10160	Servicing Stations			
+10161	Ant on a Chessboard			lucky 貓
+10162	Last Digit			lucky 貓
+10163	Storage Keepers			
+10164	Number Game			lucky 貓
+10165	Stone Game			lucky 貓
+10166	Travel			
+10167	Birthday Cake			lucky 貓
+10168	Summation of Four Primes			lucky 貓
+10169	Urn-ball Probabilities !			
+10170	The Hotel with Infinite Rooms			lucky 貓
+10171	Meeting Prof. Miguel...			
+10172	The Lonesome Cargo Distributor			
+10173	Smallest Bounding Rectangle			
+10174	Couple-Bachelor-Spinster Numbers.			lucky 貓
+10175	Sphere			
+10176	Ocean Deep ! - Make it shallow !!			lucky 貓
+10177	(2/3/4)-D Sqr/Rects/Cubes/Boxes?			
+10178	Count the Faces.			
+10179	Irreducable Basic Fractions			lucky 貓
+10180	Rope Crisis in Ropeland!			
+10181	15-Puzzle Problem			
+10182	Bee Maja			lucky 貓
+10183	How Many Fibs?			lucky 貓
+10184	Equidistance			
+10185	Phylogenetic Trees Inherited			
+10186	Euro Cup 2000			
+10187	From Dusk Till Dawn			
+10188	Automated Judge Script			lucky 貓
+10189	Minesweeper			lucky 貓
+10190	Divide, But Not Quite Conquer!			
+10191	Longest Nap			lucky 貓
+10192	Vacation	2.5	DP, LCS, fast IO	lucky 貓
+10193	All You Need Is Love			lucky 貓
+10194	Football (aka Soccer)			
+10195	The Knights Of The Round Table			lucky 貓
+10196	Check The Check			lucky 貓
+10197	Learning Portuguese			
+10198	Counting			ruby 兔
+10199	Tourist Guide	2.5	Graph theory, Articulation point, Connectivity	lucky 貓
+102 - Volume CII
+題號	標題	難度	參考解題方向	備註
+10200	Prime Time			lucky 貓
+10201	Adventures in Moving - Part IV			
+10202	Pairsumonious Numbers			lucky 貓
+10203	Snow Clearing			
+10204	Adventures in Moving - Part V			
+10205	Stack 'em Up			
+10206	Stars			
+10207	The Unreal Tournament			
+10208	Liar or Not Liar that is the...			
+10209	Is This Integration ?			lucky 貓
+10210	Romeo and Juliet !			lucky 貓
+10211	Divisibility Testing! Wow!			
+10212	The Last Non-zero Digit.			lucky 貓
+10213	How Many Pieces of Land ?			lucky 貓
+10214	Trees in a Wood.			
+10215	The Largest/Smallest Box ...			lucky 貓
+10216	The Optimal Coffee Shop!!			
+10217	A Dinner with Schwarzenegger!!!			
+10218	Let's Dance !!!			
+10219	Find the ways !			lucky 貓
+10220	I Love Big Numbers !	2.0	Big number, Factorial, Sum of digit	lucky 貓
+10221	Satellites			
+10222	Decode the Mad man	1.0	Ad hoc, String, Cryptography	lucky 貓
+10223	How many nodes ?			lucky 貓
+10224	Return of the Jedi			
+10225	Discrete Logging			
+10226	Hardwood Species			lucky 貓
+10227	Forests			lucky 貓
+10228	Star not a Tree?			
+10229	Modular Fibonacci			lucky 貓
+10230	Savage Garden			
+10231	Matrix World			
+10232	Bit-wise Sequence			lucky 貓
+10233	Dermuba Triangle			lucky 貓
+10234	Frequent Substrings			
+10235	Simply Emirp	1.5	Number theory, Prime sieve, Emirp	lucky 貓
+10236	The Fibonacci Primes			
+10237	Bishops			lucky 貓
+10238	Throw the Dice			
+10239	The Book-shelver's Problem			
+10240	The n-Dimensional Cities			
+10241	Semi-triangular and also Square			
+10242	Fourth Point !!			lucky 貓
+10243	Fire! Fire!! Fire!!!			
+10244	First Love !!!			
+10245	The Closest Pair Problem			lucky 貓
+10246	Asterix and Obelix			
+10247	Complete Tree Labeling			
+10248	The Integer All-time Champ			
+10249	The Grand Dinner			
+10250	The Other Two Trees			
+10251	Min-Max Cake			
+10252	Common Permutation	1.0	Ad hoc, String, Letter frequency	ruby 兔
+10253	Series-Parallel Networks			lucky 貓
+10254	The Priest Mathematician			lucky 貓
+10255	The knight's Tour			
+10256	The Great Divide			
+10257	Dick and Jane			lucky 貓
+10258	Contest Scoreboard			lucky 貓
+10259	Hippity Hopscotch			lucky 貓
+10260	Soundex	1.5	Ad hoc, String	ruby 兔
+10261	Ferry Loading			
+10262	Suffidromes			
+10263	Railway			
+10264	The Most Potent Corner			
+10265	Toroidal Chess Queens' Problem			
+10266	Surveying			
+10267	Graphical Editor			ruby 兔
+10268	498-bis			lucky 貓
+10269	Adventure of Super Mario			
+10270	Bigger Square Please...			
+10271	Chopsticks			lucky 貓
+10272	DDR King			
+10273	Eat or Not to Eat?			
+10274	Fans and Gems			
+10275	Guess the Number!			
+10276	Hanoi Tower Troubles Again!			lucky 貓
+10277	Boastin' Red Socks			
+10278	Fire Station			
+10279	Mine Sweeper			
+10280	Old Wine Into New Bottles			
+10281	Average Speed			
+10282	Babelfish			lucky 貓
+10283	The Kissing Circles			lucky 貓
+10284	Chessboard in FEN			lucky 貓
+10285	Longest Run on a Snowboard			lucky 貓
+10286	Trouble with a Pentagon			lucky 貓
+10287	Gifts in a Hexagonal Box			lucky 貓
+10288	Coupons			
+10289	A Square and Equilateral Triangles			lucky 貓
+10290	{Sum+=i++} to Reach N			lucky 貓
+10291	Cut the Legs			
+10292	The Gossiping System			
+10293	Word Length and Frequency			
+10294	Arif in Dhaka (First Love Part 2)			
+10295	Hay Points	1.0	Ad hoc, Word frequency, Dictionary	lucky 貓
+10296	Jogging Trails			lucky 貓
+10297	Beavergnaw			lucky 貓
+10298	Power Strings			lucky 貓
+10299	Relatives			lucky 貓
+103 - Volume CIII
+題號	標題	難度	參考解題方向	備註
+10300	Ecological Premium	1.0	Ad hoc	lucky 貓
+10301	Rings and Glue			
+10302	Summation of Polynomials	1.0	Math, Summation, Triangular number	lucky 貓
+10303	How Many Trees?			lucky 貓
+10304	Optimal Binary Search Tree			
+10305	Ordering Tasks			lucky 貓
+10306	e-Coins	2.5	DP, Coin change	
+10307	Killing Aliens in Borg Maze			
+10308	Roads in the North			
+10309	Turn the Lights Off			
+10310	Dog and Gopher			lucky 貓
+10311	Goldbach and Euler			lucky 貓
+10312	Expression Bracketing			
+10313	Pay the Price	3.0	DP, Coin change	lucky 貓
+10314	Three Pigs			
+10315	Poker Hands			lucky 貓
+10316	Airline Hub			
+10317	Equating Equations			
+10318	Security Panel			
+10319	Manhattan			
+10320	Cow Trouble! Help Please!!			
+10321	Polygon Intersection			
+10322	The Four in One Stadium			
+10323	Factorial! You Must be Kidding!!!			lucky 貓
+10324	Zeros and Ones			lucky 貓
+10325	The Lottery			lucky 貓
+10326	The Polynomial Equation			lucky 貓
+10327	Flip Sort			lucky 貓
+10328	Coin Toss	3.0	Combinatorial DP, Big number	lucky 貓
+10329	Combinatorial Expression			lucky 貓
+10330	Power Transmission	
+lucky 貓
+10331	The Flyover Construction			
+10332	The Absent Minded Professor			
+10333	The Tower of ASCII			
+10334	Ray Through Glasses			lucky 貓
+10335	Ray Inside a Polygon			
+10336	Rank the Languages			lucky 貓
+10337	Flight Planner			
+10338	Mischievous Children			lucky 貓
+10339	Watching Watches			
+10340	All in All	1.0	String, Subsequence	lucky 貓
+10341	Solve It			
+10342	Always Late			lucky 貓
+10343	Base64 Decoding			
+10344	23 out of 5			lucky 貓
+10345	Cricket/Football Goes Down			lucky 貓
+10346	Peter's Smoke	1.0	Ad-hoc, Cola	lucky 貓
+10347	Medians			ruby 兔
+10348	Submarines			
+10349	Antenna Placement			
+10350	Liftless EME			
+10351	Cutting Diamonds			
+10352	Count the eWords			
+10353	Circles in Hexagon :-)			
+10354	Avoiding Your Boss			
+10355	Superman			
+10356	Rough Roads			
+10357	Playball !!!			
+10358	Matrix			
+10359	Tiling			lucky 貓
+10360	Rat Attack			
+10361	Automatic Poetry			lucky 貓
+10362	Trains			
+10363	Tic Tac Toe			
+10364	Square			lucky 貓
+10365	Blocks			lucky 貓
+10366	Faucet Flow			
+10367	Equations			
+10368	Euclid's Game			lucky 貓
+10369	Arctic Network			
+10370	Above Average	1.0	Ad hoc	lucky 貓
+10371	Time Zones			
+10372	Leaps Tall Buildings (in a single bound)			
+10373	The Brick Stops Here			
+10374	Election			lucky 貓
+10375	Choose and divide			lucky 貓
+10376	Snakes			
+10377	Maze Traversal			lucky 貓
+10378	Complex Numbers			
+10379	Pit Stop Strategy			
+10380	Shogi Tournament			
+10381	The Rock			
+10382	Watering Grass			
+10383	Queen vs Rook			
+10384	The Wall Pushers			
+10385	Duathlon			
+10386	Circles in Triangle			lucky 貓
+10387	Billiard			
+10388	Snap			
+10389	Subway			
+10390	Bean Counting			
+10391	Compound Words			lucky 貓
+10392	Factoring Large Numbers			lucky 貓
+10393	The One-Handed Typist			lucky 貓
+10394	Twin Primes			lucky 貓
+10395	Titans in Danger			
+10396	Vampire Numbers			
+10397	Connect the Campus			lucky 貓
+10398	The Golden Pentagon			
+10399	Optimus Prime			
+104 - Volume CIV
+題號	標題	難度	參考解題方向	備註
+10400	Game Show Math			lucky 貓
+10401	Injured Queen Problem			
+10402	Triangle Covering			
+10403	Escape from Tut's Tomb			
+10404	Bachet's Game			lucky 貓
+10405	Longest Common Subsequence	2.5	DP, LCS, fast IO	lucky 貓
+10406	Cutting tabletops			
+10407	Simple division	2.0	Number theory, Gcd	lucky 貓
+10408	Farey sequences			lucky 貓
+10409	Die Game			lucky 貓
+10410	Tree Reconstruction			lucky 貓
+10411	Another Game of Tetris			
+10412	Big Big Trees			
+10413	Crazy Savages			
+10414	Denki Blocks			
+10415	Eb Alto Saxophone Player			
+10416	Folding My T-Shirt			
+10417	Gift Exchanging			
+10418	Hyper Toy Soldiers			lucky 貓
+10419	Sum-up the Primes			
+10420	List of Conquests	1.0	String, STL Map	ruby 兔
+10421	Critical Wave			
+10422	Knights in FEN			
+10423	Peter Takes a Tramway			
+10424	Love Calculator	1.5	Ad-hoc, Sum-of-digit	ruby 兔
+10425	Mobile Destroyer			
+10426	Knights' Nightmare			
+10427	Naughty Sleepy Boys			
+10428	The Roots			
+10429	Mohr's Circle			
+10430	Dear GOD, Pardon Me			
+10431	Normal Distribution			
+10432	Polygon Inside A Circle			lucky 貓
+10433	Automorphic Numbers			lucky 貓
+10434	Working With Specific Gravity			
+10435	Compare Directories			
+10436	Cheapest way			
+10437	Playing With Fraction			
+10438	Meta Editor			
+10439	Temple of Dune			
+10440	Ferry Loading II			
+10441	Catenyms			
+10442	Basic			
+10443	Rock, Scissors, Paper			lucky 貓
+10444	Multi-peg Towers of Hanoi			
+10445	Make Polygon			
+10446	The Marriage Interview :-)			
+10447	Sum-up the Primes (II)			
+10448	Unique World			
+10449	Traffic			
+10450	World Cup Noise			lucky 貓
+10451	Ancient Village Sports			ruby 兔
+10452	Marcus, help!			
+10453	Make Palindrome			
+10454	Trexpression			
+10455	Gray Code			
+10456	Intelligent Cats			
+10457	Magic Car			
+10458	Cricket Ranking			
+10459	The Tree Root			
+10460	Find the Permuted String			
+10461	Difference			
+10462	Is There A Second Way Left?			
+10463	Aztec Knights			
+10464	Big Big Real Numbers			
+10465	Homer Simpson	2.5	DP	lucky 貓
+10466	How Far?			
+10467	Parse Tree			
+10468	Rigid Circle Packing			
+10469	To Carry or not to Carry	1.0	Bitwise operation, Xor	lucky 貓
+10470	Shifted Coefficient Number System			
+10471	Can't be too GREEDY			
+10472	Fastest Vs Cheapest			
+10473	Simple Base Conversion	1.5	Base conversion, Ad hoc	lucky 貓
+10474	Where is the Marble?			lucky 貓
+10475	Help the Leaders			
+10476	Spam or Not Spam			
+10477	The Hybrid Knight			
+10478	The Falling Pillars			
+10479	The Hendrie Sequence			
+10480	Sabotage			
+10481	The Gift Wrappers of Hollywood			
+10482	The Candyman Can			
+10483	The Sum Equals the Product			
+10484	Divisibility of Factors			lucky 貓
+10485	Painting with CSE			
+10486	Mountain Village			
+10487	Closest Sums			lucky 貓
+10488	Swimming Gopher			
+10489	Boxes of Chocolates			lucky 貓
+10490	Mr. Azad and his Son!!!!!			ruby 兔
+10491	Cows and Cars			lucky 貓
+10492	Optimal Mastermind Strategy			
+10493	Cats, with or without Hats			lucky 貓
+10494	If We Were a Child Again			lucky 貓
+10495	Conic Distance			
+10496	Collecting Beepers			lucky 貓
+10497	Sweet Child Makes Trouble			lucky 貓
+10498	Happiness			
+10499	The Land of Justice	1.0	Ad hoc	lucky 貓
+105 - Volume CV
+題號	標題	難度	參考解題方向	備註
+10500	Robot maps			lucky 貓
+10501	Simplified Shisen-Sho			
+10502	Counting Rectangles			lucky 貓
+10503	The dominoes solitaire			
+10504	Hidden squares			
+10505	Montesco vs Capuleto			
+10506	The Ouroboros problem			
+10507	Waking up brain			
+10508	Word Morphing			
+10509	R U Kidding Mr. Feynman!			
+10510	Cactus			
+10511	Councilling			
+10512	A Day in Math-land			
+10513	Bangladesh Sequences			
+10514	River Crossing			
+10515	Power Et Al.			lucky 貓
+10516	Another Counting Problem			
+10517	Wind of Change!			
+10518	How Many Calls?			lucky 貓
+10519	!! Really Strange !!			lucky 貓
+10520	Determine it			
+10521	Continuously Growing Fractions			
+10522	Height to Area			
+10523	Very Easy !!!			ruby 兔
+10524	Matriz Reloaded			
+10525	New to Bangladesh?			
+10526	Intellectual Property			
+10527	Persistent Numbers			lucky 貓
+10528	Major Scales			
+10529	Dumb Bones			
+10530	Guessing Game			lucky 貓
+10531	Maze Statistics			
+10532	Combination! Once Again			
+10533	Digit Primes	2.0	Number theory, Prime sieve, Digit sum, Prefix sum	lucky 貓
+10534	Wavio Sequence	3.0	DP, LIS nlgn ver, LIS, LDS	lucky 貓
+10535	Shooter			
+10536	Game of Euler			
+10537	The Toll! Revisited			
+10538	Powerful Magic Squares			
+10539	Almost Prime Numbers			lucky 貓
+10540	Flowers of a Beautiful Mind			
+10541	Stripe			
+10542	Hyper-drive			
+10543	Traveling Politician			
+10544	Numbering the Paths			
+10545	Maximal Quadrilateral			
+10546	The Eagle's Nest			
+10547	Hidden Truth in Recurrenc			
+10548	Find the Right Changes			
+10549	Russian Dolls			lucky 貓
+10550	Combination Lock	1.0	Ad hoc	lucky 貓
+10551	Basic Remains			lucky 貓
+10552	Genealogical Research			
+10553	Treasure Map			
+10554	Calories from Fat			
+10555	Dead Fraction			
+10556	Biometrics			
+10557	XYZZY			
+10558	A Brief Gerrymander			
+10559	Blocks			
+10560	Minimum Weight			
+10561	Treblecross			
+10562	Undraw the Trees			
+10563	Least Squares			lucky 貓
+10564	Paths through the Hourglass			lucky 貓
+10565	Matrix			
+10566	Crossed Ladders			lucky 貓
+10567	Helping Fill Bates			
+10568	n Group k			
+10569	Number Theory			
+10570	Meeting with Aliens			
+10571	Products			
+10572	Black & White			
+10573	Geometry Paradox			lucky 貓
+10574	Counting Rectangles			
+10575	Polylops			
+10576	Y2K Accounting Bug			
+10577	Bounding box			
+10578	The Game of 31			lucky 貓
+10579	Fibonacci Numbers	2.0	Big number, Addition, Fibonacci number	ruby 兔
+10580	Ransom Note			
+10581	Partitioning for fun and profit			
+10582	ASCII Labyrinth			
+10583	Ubiquitous Religions			lucky 貓
+10584	Text Formalization			
+10585	Center of symmetry			
+10586	Polynomial Remains			
+10587	Mayor's posters			
+10588	Queuing at the doctors			
+10589	Area			lucky 貓
+10590	Boxes of Chocolates Again			
+10591	Happy Number			lucky 貓
+10592	Freedom Fighter			
+10593	Kites			
+10594	Data Flow			
+10595	Knight on the Bee Board			
+10596	Morning Walk			
+10597	Right Words			
+10598	Find the Latitude			
+10599	Robots(II)			
+106 - Volume CVI
+題號	標題	難度	參考解題方向	備註
+10600	ACM Contest and Blackout			ruby 兔
+10601	Cubes			
+10602	Editor Nottobad			
+10603	Fill			lucky 貓
+10604	Chemical Reaction			
+10605	Mines For Diamonds			
+10606	Opening Doors			
+10607	Siege			
+10608	Friends			lucky 貓
+10609	Fractal			
+10610	Gopher and Hawks			
+10611	The Playboy Chimp			ruby 兔
+10612	Paper Folding			
+10613	Mushroom Misery			
+10614	Dreadful Vectors			
+10615	Rooks			
+10616	Divisible Group Sums			
+10617	Again Palindromes			
+10618	Tango Tango Insurrection			
+10619	Advanced Causal Measurements			
+10620	A Flea on a Chessboard			lucky 貓
+10621	Jack and Jill			
+10622	Perfect P-th Powers			lucky 貓
+10623	Thinking Backward			
+10624	Super Number			lucky 貓
+10625	GNU = GNU'sNotUnix			lucky 貓
+10626	Buying Coke			
+10627	Infinite Race			lucky 貓
+10628	Quadrills			
+10629	Truckin'			
+10630	Millennium Ceremony			
+10631	Normals			
+10632	Pyramid			
+10633	Rare Easy Problem			lucky 貓
+10634	Say NO to Memorization			
+10635	Prince and Princess	LIS		lucky 貓
+10636	Stretching Geometry			
+10637	Coprimes			lucky 貓
+10638	The Trip II			
+10639	Square Puzzle			
+10640	Planes around the World			
+10641	Barisal Stadium			
+10642	Can You Solve It?			ruby 兔
+10643	Facing Problem With Trees			
+10644	Floor Tiles			
+10645	Menu			
+10646	What is the Card?			
+10647	Optimal House Placement			
+10648	Chocolate Box			
+10649	Danger Point			lucky 貓
+10650	Determinate Prime			
+10651	Pebble Solitaire			
+10652	Board Wrapping			
+10653	Bombs! NO they are Mines!!			
+10654	The Uxuhul Voting System			
+10655	Contemplation - Algebra			lucky 貓
+10656	Maximum Sum (II)			ruby 兔
+10657	Prince Frog II			
+10658	ReArrange			
+10659	Fitting Text into Slides			
+10660	Citizen attention offices			
+10661	The Perspectographer			
+10662	The Wedding			
+10663	Non-Powerful Subsets			
+10664	Luggage	2.5	DP, 0-1 knapsack, Subset sum	lucky 貓
+10665	Diatribe against Pigeonholes			
+10666	The Eurocup is Here!			
+10667	Largest Block			
+10668	Expanding Rods			
+10669	Three powers			
+10670	Work Reduction			
+10671	Grid Speed			
+10672	Marbles on a tree			
+10673	Play with Floor and Ceil	1.0	Ad hoc, Math	lucky 貓
+10674	Tangents			
+10675	Revenge of Faucet Flow			
+10676	Grid Points			
+10677	Base Equality			
+10678	The Grazing Cow	1.0	Math, Geometry	lucky 貓
+10679	I Love Strings!!			
+10680	LCM			lucky 貓
+10681	Teobaldo's Trip			
+10682	Forr籀 Party			
+10683	The decadary watch			
+10684	The jackpot	2.5	DP, Max consecutive subsequence 1D	lucky 貓
+10685	Nature			
+10686	SQF Problems			
+10687	Monitoring the Amazon			
+10688	The Poor Giant			
+10689	Yet another Number Sequence			lucky 貓
+10690	Expression Again			
+10691	Subway			
+10692	Huge Mods			
+10693	Traffic Volume			lucky 貓
+10694	Combinatorial Summation			
+10695	Find the Point			
+10696	f91	1.0	Recursive, Ad hoc, F91	lucky 貓
+10697	Firemen barracks			
+10698	Football Sort			
+10699	Count the factors	1.5	Number theory, Prime sieve, Factorization	lucky 貓
+107 - Volume CVII
+題號	標題	難度	參考解題方向	備註
+10700	Camel trading			lucky 貓
+10701	Pre, in and post			lucky 貓
+10702	Travelling Salesman			lucky 貓
+10703	Free spots			ruby 兔
+10704	Traffic!			
+10705	The Fun Number System			
+10706	Number Sequence			lucky 貓
+10707	2D-Nim			
+10708	Cheetah			
+10709	Intersection is Not that Easy			lucky 貓
+10710	Chinese Shuffle			
+10711	Stitching			
+10712	Count the Numbers			
+10713	Map			
+10714	Ants	1.0	Ad hoc, Min max	lucky 貓
+10715	Cat			
+10716	Evil Straw Warts Live			
+10717	Mint			
+10718	Bit Mask			
+10719	Quotient Polynomial			
+10720	Graph Construction			
+10721	Bar Codes			
+10722	Super Lucky Numbers			
+10723	Cyborg Genes			
+10724	Road Construction			
+10725	Triangular Square			
+10726	Coco Monkey			
+10727	Practice			
+10728	Help!			
+10729	Treequivalence			
+10730	Antiarithmetic?			lucky 貓
+10731	Test			
+10732	The Strange Research			
+10733	The Colored Cubes			
+10734	Triangle Partitioning			
+10735	Euler Circuit			
+10736	Series of PI			
+10737	The Difference Engine			
+10738	Riemann vs Mertens			
+10739	String to Palindrome	2.5	DP, Edit distance	ruby 兔
+10740	Not the Best			
+10741	Magic Cube			
+10742	The New Rule in Euphomia			
+10743	Blocks on Blocks			
+10744	The Optimal Super-Highway			
+10745	Dominant Strings			
+10746	Crime Wave - The Sequel			
+10747	Maximum Subsequence			
+10748	Knights Roaming			
+10749	Automobile Travelling			
+10750	Beautiful Points			
+10751	Chessboard			
+10752	Distant Jumping			
+10753	Exponential Function			
+10754	Fantastic Sequence			
+10755	Garbage Heap			
+10756	HardNumbers			
+10757	Interpreting SQL			
+10758	Journey			
+10759	Dice Throwing	2.5	DP, Combinatorial math, Probability DP	lucky 貓
+10760	Translation or rotation			
+10761	Broken Keyboard			
+10762	Treasure Castle			
+10763	Foreign Exchange			lucky 貓
+10764	Signed-digit numbers			
+10765	Doves and bombs			
+10766	Organising the Organisation			
+10767	Barcelona's trams			
+10768	Planarity			
+10769	Pillars			
+10770	Sokoban			
+10771	Barbarian tribes			lucky 貓
+10772	Rose windows			
+10773	Back to Intermediate Math			
+10774	Repeated Josephus			
+10775	Mystical Matrix			
+10776	Determine The Combination			
+10777	God! Save me			
+10778	Mathemagicland			
+10779	Collectors Problem			
+10780	Again Prime? No Time.			lucky 貓
+10781	Global Positioning System			
+10782	Send More Money			
+10783	Odd Sum	1.0	Math, Tree planting problem	lucky 貓
+10784	Diagonal			lucky 貓
+10785	The Mad Numerologist			
+10786	Qualify for the Champions League			
+10787	Modular Equations			
+10788	Parenthesizing Palindromes			
+10789	Prime Frequency			lucky 貓
+10790	How Many Points of Intersection?			lucky 貓
+10791	Minimum Sum LCM			lucky 貓
+10792	The Laurel-Hardy Story			
+10793	The Orc Attack			
+10794	The Deadly Olympic Returns!!!			
+10795	A Different Task			lucky 貓
+10796	Right Hand Rule			
+10797	Peaceful Sharing			
+10798	Be wary of Roses			
+10799	OOPS! They did it Again...			
+108 - Volume CVIII
+題號	標題	難度	參考解題方向	備註
+10800	Not That Kind of Graph			lucky 貓
+10801	Lift Hopping			lucky 貓
+10802	Lex Smallest Drive			
+10803	Thunder Mountain			
+10804	Gopher Strategy			
+10805	Cockroach Escape Networks			
+10806	Dijkstra, Dijkstra.			
+10807	Prim, Prim.			
+10808	Rational Resistors			
+10809	Great Circle			
+10810	Ultra-QuickSort			lucky 貓
+10811	Up the Ante			
+10812	Beat the Spread!	1.0	Ad hoc, Math	lucky 貓
+10813	Traditional BINGO			
+10814	Simplifying Fractions			
+10815	Andy's First Dictionary			lucky 貓
+10816	Travel in Desert			
+10817	Headmaster's Headache			
+10818	Dora Trip			
+10819	Trouble of 13-Dots			
+10820	Send a Table			
+10821	Constructing BST			
+10822	Planet of the Rock, Paper and Scissors			
+10823	Of Circles and Squares			
+10824	Regular Polygon			
+10825	Anagram and Multiplication			
+10826	Hot or Cold?			
+10827	Maximum sum on a torus			
+10828	Back to Kernighan-Ritchie			
+10829	L-Gap Substrings			lucky 貓
+10830	A New Function			lucky 貓
+10831	Gerg's Cake			
+10832	Yoyodyne			
+10833	Lunar Forest			
+10834	The Story of Two Coins			
+10835	Playing with Coins			
+10836	The Maximum Term			
+10837	A Research Problem			
+10838	The Pawn Chess			
+10839	The Curse of Barbosa			
+10840	Multi-stage Compressor			
+10841	Lift Hopping in the Real World			
+10842	Traffic Flow			
+10843	Anne's game			
+10844	Bloques			
+10845	The crusades			ruby 兔
+10846	Reading time from a clock			
+10847	Basic Tautologies			
+10848	Make Palindrome Checker			
+10849	Move the bishop			
+10850	The Gossipy Gossipers Gossip Gossips			
+10851	2D Hieroglyphs decoder			
+10852	Less Prime			ruby 兔
+10853	Pablito nailed a nail			
+10854	Number of Paths			
+10855	Rotated squares			
+10856	Recover Factorial			lucky 貓
+10857	Easter Eggs			
+10858	Unique Factorization			lucky 貓
+10859	Placing Lampposts			
+10860	Many a Little makes a Mickle			
+10861	Security by Ambiguity			
+10862	Connect the Cable Wires			
+10863	Shovelling Snow			
+10864	The Predator			
+10865	Brownie Points			
+10866	Magic Bitstrings			
+10867	Cutting a Polygon			
+10868	Bungee Jumping			
+10869	Brownie Points II			
+10870	Recurrences			
+10871	Anti-Primes			
+10872	Triangles			
+10873	Splat, Inc.			
+10874	Segments			
+10875	Big Math			
+10876	Factory Robot			
+10877	Decoids			
+10878	Decode the tape			lucky 貓
+10879	Code Refactoring	1.0	Math, Factorization	ruby 兔
+10880	Colin and Ryan			lucky 貓
+10881	Piotr's Ants			lucky 貓
+10882	Koerner's Pub			
+10883	Supermean			lucky 貓
+10884	Persephone			
+10885	Martin the Gardener			
+10886	Standard Deviation			
+10887	Concatenation of Languages			
+10888	Warehouse			
+10889	The Lost Gift			
+10890	Maze			
+10891	Game of Sum			lucky 貓
+10892	LCM Cardinality			lucky 貓
+10893	Creating Sudoku Puzzles			
+10894	Save Hridoy			
+10895	Matrix Transpose			
+10896	Known Plaintext Attack			
+10897	Travelling Distance			
+10898	Combo Deal			lucky 貓
+10899	Billiard again			
+109 - Volume CIX
+題號	標題	難度	參考解題方向	備註
+10900	So you want to be a 2^n-aire?			
+10901	Ferry Loading III			
+10902	Pick-up Sticks			
+10903	Rock-Paper-Scissors Tournament			lucky 貓
+10904	Structural Equivalence			
+10905	Children's Game			lucky 貓
+10906	Strange Integration			
+10907	Art Gallery			
+10908	Largest Square			
+10909	Lucky Number			
+10910	Marks Distribution			
+10911	Forming Quiz Teams	2.0	Backtracking, DFS, Memorization	lucky 貓
+10912	Simple Minded Hashing	2.5	DP, Combinatorial DP	lucky 貓
+10913	Walking on a Grid			
+10914	Abundance and Perfect Numbers			
+10915	War on Weather			
+10916	Factstone Benchmark			lucky 貓
+10917	Walk Through the Forest			lucky 貓
+10918	Tri Tiling	2.0	DP, Linear DP	lucky 貓
+10919	Prerequisites?			lucky 貓
+10920	Spiral Tap			
+10921	Find the Telephone	1.5	Ad hoc, String, Cellphone	ruby 兔
+10922	2 the 9s			lucky 貓
+10923	Seven Seas			
+10924	Prime Words			lucky 貓
+10925	Krakovia			
+10926	How Many Dependencies?			lucky 貓
+10927	Bright Lights			
+10928	My Dear Neighbours			
+10929	You can say 11			lucky 貓
+10930	A-Sequence			
+10931	Parity	1.5	Ad hoc, Base coversion, Parity	ruby 兔
+10932	Calculator			
+10933	Volleyball			
+10934	Dropping water balloons			
+10935	Throwing cards away I			
+10936	Land surveyor's job			
+10937	Blackbeard the Pirate			
+10938	Flea circus			
+10939	Ants, Aphids and a Ladybug			
+10940	Throwing cards away II			
+10941	Words adjustment			
+10942	Can of Beans			
+10943	How do you add?			
+10944	Nuts for nuts..			
+10945	Mother bear			
+10946	You want what filled?			
+10947	Bear with me, again..			
+10948	The primary problem			
+10949	Kids in a Grid			lucky 貓
+10950	Bad Code			
+10951	Polynomial GCD			
+10952	Pattern Transformations			
+10953	Stochastic Digit Generator			
+10954	Add All			lucky 貓
+10955	Playfair Cipher			
+10956	Prime Suspect			
+10957	So Doku Checker			lucky 貓
+10958	How Many Solutions?			
+10959	The Party, Part I			lucky 貓
+10960	The Party, Part II			
+10961	Chasing After Don Giovanni			lucky 貓
+10962	Don Giovanni's Last Dinner			lucky 貓
+10963	The Swallowing Ground	1.0	Ad hoc	lucky 貓
+10964	Strange Planet			
+10965	Khepel's Problem			
+10966	3KP-BASH Project			
+10967	The Great Escape			
+10968	KuPellaKeS			
+10969	Sweet Dreem			
+10970	Big Chocolate	1.0	Ad hoc, Math	ruby 兔
+10971	Building Construction			
+10972	RevolC FaeLoN			
+10973	Triangle Counting			
+10974	The Ridiculous Game			
+10975	Dueue's Quiz			
+10976	Fractions Again?!			lucky 貓
+10977	Enchanted Forest			
+10978	Let's Play Magic!			
+10979	How Many Triangles?			
+10980	Lowest Price in Town			
+10981	String Morphing			
+10982	Troublemakers			
+10983	Buy one, get the rest free			
+10984	Double NP-hard			
+10985	Rings'n'Ropes			
+10986	Sending email			lucky 貓
+10987	Antifloyd			
+10988	From G to H and back			
+10989	Bomb, Divide and Conquer			
+10990	Another New Function			
+10991	Region			
+10992	The Ghost of Programmers			
+10993	Ignoring Digits			
+10994	Simple Addition			lucky 貓
+10995	Educational Journey			
+10996	Go			
+10997	Medals			
+10998	Flipping Colors			
+10999	Crabbles			

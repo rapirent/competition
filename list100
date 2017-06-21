@@ -1,0 +1,920 @@
+001 - Volume I
+題號	標題	難度	參考解題方向	備註
+100	The 3n + 1 problem	1.0	Brute force, Collatz conjecture, 3n+1	lucky 貓
+101	The Blocks Problem			lucky 貓
+102	Ecological Bin Packing	1.5	Brute force	lucky 貓
+103	Stacking Boxes	2.5	DP, LIS, DAG	lucky 貓
+104	Arbitrage			lucky 貓
+105	The Skyline Problem			lucky 貓
+106	Fermat vs. Pythagoras			lucky 貓
+107	The Cat in the Hat			lucky 貓
+108	Maximum Sum	2.5	DP, Max consecutive subsequence 2D	lucky 貓
+109	SCUD Busters			ruby 兔
+110	Meta-Loopless Sorts			ruby 兔
+111	History Grading	2.5	DP, LIS, DAG, Hash	lucky 貓
+112	Tree Summing			lucky 貓
+113	Power of Cryptography			lucky 貓
+114	Simulation Wizardry			
+115	Climbing Trees			lucky 貓
+116	Unidirectional TSP			lucky 貓
+117	The Postal Worker Rings Once			ruby 兔
+118	Mutant Flatworld Explorers			lucky 貓
+119	Greedy Gift Givers			ruby 兔
+120	Stacks of Flapjacks			lucky 貓
+121	Pipe Fitters			ruby 兔
+122	Trees on the level			lucky 貓
+123	Searching Quickly			ruby 兔
+124	Following Orders			lucky 貓
+125	Numbering Paths			ruby 兔
+126	The Errant Physicist			ruby 兔
+127	"Accordian" Patience			lucky 貓
+128	Software CRC			lucky 貓
+129	Krypton Factor			ruby 兔
+130	Roman Roulette			lucky 貓
+131	The Psychic Poker Player			lucky 貓
+132	Bumpy Objects			
+133	The Dole Queue			lucky 貓
+134	Loglan-A Logical Language			
+135	No Rectangles			
+136	Ugly Numbers			lucky 貓
+137	Polygons			
+138	Street Numbers			lucky 貓
+139	Telephone Tangles			ruby 兔
+140	Bandwidth			ruby 兔
+141	The Spot Game			ruby 兔
+142	Mouse Clicks			lucky 貓
+143	Orchard Trees			lucky 貓
+144	Student Grants			ruby 兔
+145	Gondwanaland Telecom			lucky 貓
+146	ID Codes	1.0	Next permutation, Permutation, Recursive	lucky 貓
+147	Dollars	2.5	DP, Coin change	lucky 貓
+148	Anagram checker			ruby 兔
+149	Forests			
+150	Double Time			
+151	Power Crisis			lucky 貓
+152	Tree's a Crowd			ruby 兔
+153	Permalex			lucky 貓
+154	Recycling			
+155	All Squares			lucky 貓
+156	Ananagrams			ruby 兔
+157	Route Finding			
+158	Calendar			
+159	Word Crosses			ruby 兔
+160	Factors and Factorials	2.0	Number theory, Prime sieve, Factorization	lucky 貓
+161	Traffic Lights			lucky 貓
+162	Beggar My Neighbour			
+163	City Directions			
+164	String Computer	3.0	DP, Edit distance	ruby 兔
+165	Stamps	
+
+ruby 兔
+166	Making Change	2.5	DP, Greedy, Coin change, Bounded knapsack	lucky 貓
+167	The Sultan's Successors			lucky 貓
+168	Theseus and the Minotaur			
+169	Xenosemantics			
+170	Clock Patience			lucky 貓
+171	Car Trialling			
+172	Calculator Language			
+173	Network Wars			
+174	Strategy			
+175	Keywords			
+176	City Navigation			
+177	Paper Folding			
+178	Shuffling Patience			
+179	Code Breaking			
+180	Eeny Meeny			
+181	Hearts			
+182	Bonus Bonds			
+183	Bit Maps			
+184	Laser Lines			
+185	Roman Numerals			
+186	Trip Routing			
+187	Transaction Processing			
+188	Perfect Hash			
+189	Pascal Program Lengths			
+190	Circle Through Three Points			lucky 貓
+191	Intersection			lucky 貓
+192	Synchronous Design			
+193	Graph Coloring			lucky 貓
+194	Triangle			
+195	Anagram			lucky 貓
+196	Spreadsheet			
+197	Cube			ruby 兔
+198	Peter's Calculator			
+199	Partial differential equations			
+002 - Volume II
+題號	標題	難度	參考解題方向	備註
+200	Rare Order			lucky 貓
+201	Squares			lucky 貓
+202	Repeating Decimals			lucky 貓
+203	Running Lights Visibility Calculator			
+204	Robot Crash			
+205	Getting There			
+206	Meals on Wheels Routing System			
+207	PGA Tour Prize Money			
+208	Firetruck			ruby 兔
+209	Triangular Vertices			ruby 兔
+210	Concurrency Simulator			
+211	The Domino Effect			
+212	Use of Hospital Facilities			
+213	Message Decoding			ruby 兔
+214	Code Generation			
+215	Spreadsheet Calculator			
+216	Getting in Line			lucky 貓
+217	Radio Direction Finder			
+218	Moth Eradication			ruby 兔
+219	Department of Redundancy Department			
+220	Othello			
+221	Urban Elevations			
+222	Budget Travel			ruby 兔
+223	Classifying Lots in a Subdivision			
+224	Kissin' Cousins			
+225	Golygons			
+226	MIDI Preprocessing			
+227	Puzzle			ruby 兔
+228	Resource Allocation			
+229	Scanner			
+230	Borrowers			
+231	Testing the CATCHER	2.5	DP, LIS	ruby 兔
+232	Crossword Answers			ruby 兔
+233	Package Pricing			
+234	Switching Channels			
+235	Typesetting			
+236	VTAS - Vessel Traffic Advisory Service			
+237	Monitoring Wheelchair Patients			
+238	Jill's Bike			
+239	Tempus et mobilius. Time and motion			
+240	Variable Radix Huffman Encoding			
+241	Sail Race			
+242	Stamps and Envelope Size			
+243	Theseus and the Minotaur (II)			
+244	Train Time			
+245	Uncompress			lucky 貓
+246	10-20-30			
+247	Calling Circles			lucky 貓
+248	Cutting Corners			
+249	Bang the Drum Slowly			
+250	Pattern Matching Prelims			
+251	Nondeterministic Trellis Automata			
+252	Trucking			
+253	Cube painting			lucky 貓
+254	Towers of Hanoi			lucky 貓
+255	Correct Move			ruby 兔
+256	Quirksome Squares	1.5	Number theory, Brute force	lucky 貓
+257	Palinwords			lucky 貓
+258	Mirror Maze			
+259	Software Allocation			lucky 貓
+260	Il Gioco dell'X	2.0	2D map, DFS	ruby 兔
+261	The Window Property			
+262	Transferable Voting			
+263	Number Chains			lucky 貓
+264	Count on Cantor			lucky 貓
+265	Dining Diplomats			
+266	Stamping Out Stamps			
+267	Of(f) Course!			
+268	Double Trouble			
+269	Counting Patterns			
+270	Lining Up			lucky 貓
+271	Simply Syntax			lucky 貓
+272	TEX Quotes	1.0	Ad hoc	lucky 貓
+273	Jack Straws			lucky 貓
+274	Cat and Mouse			
+275	Expanding Fractions			lucky 貓
+276	Egyptian Multiplication			ruby 兔
+277	Cabinets			
+278	Chess			ruby 兔
+279	Spin			
+280	Vertex			ruby 兔
+281	Rubik's Cube			
+282	Rename			
+283	Compress			
+284	Logic			
+285	Crosswords			
+286	Dead Or Not -- That Is The Question			
+287	Text Comparsion			
+288	Arithmetic Operations With Large Integers			ruby 兔
+289	A Very Nasty Text Formatter			
+290	Palindroms <---> smordnilaP			lucky 貓
+291	The House Of Santa Claus			lucky 貓
+292	Presentation Error			
+293	Bits			
+294	Divisors	2.0	Number theory, Prime sieve, Factorization	lucky 貓
+295	Fatman			
+296	Safebreaker			ruby 兔
+297	Quadtrees			ruby 兔
+298	Race Tracks			
+299	Train Swapping	1.0	Ad hoc, Inversion pair	ruby 兔
+003 - Volume III
+題號	標題	難度	參考解題方向	備註
+300	Maya Calendar	1.5	Ad hoc, Date problem	lucky 貓
+301	Transportation			ruby 兔
+302	John's trip			
+303	Pipe			
+304	Department			
+305	Joseph			lucky 貓
+306	Cipher			lucky 貓
+307	Sticks			lucky 貓
+308	Tin Cutter			
+309	FORCAL			
+310	L--system			
+311	Packets			lucky 貓
+312	Crosswords (II)			ruby 兔
+313	Intervals			
+314	Robot			
+315	Network	2.5	Graph theory, Articulation point, Connectivity	lucky 貓
+316	Stars			
+317	Hexagon			
+318	Domino Effect			
+319	Pendulum			
+320	Border			ruby 兔
+321	The New Villa			
+322	Ships			
+323	Jury Compromise			
+324	Factorial Frequencies	2.0	Big number, Factorial	ruby 兔
+325	Identifying Legal Pascal Real Constants			ruby 兔
+326	Extrapolation Using a Difference Table			
+327	Evaluating Simple C Expressions			ruby 兔
+328	The Finite State Text Processing Machine			
+329	PostScript Emulation			
+330	Inventory Maintenance			
+331	Mapping the Swaps			ruby 兔
+332	Rational Numbers from Repeating Fractions			lucky 貓
+333	Recognizing Good ISBNs			lucky 貓
+334	Identifying Concurrent Events			
+335	Processing MX Records			
+336	A Node Too Far			lucky 貓
+337	Interpreting Control Sequences			ruby 兔
+338	Long Multiplication			
+339	SameGame Simulation			
+340	Master-Mind Hints			lucky 貓
+341	Non-Stop Travel			ruby 兔
+342	HTML Syntax Checking			
+343	What Base Is This?			lucky 貓
+344	Roman Digititis	1.5	String manipulation, Roman number	ruby 兔
+345	It's Ir-Resist-Able!			
+346	Getting Chorded			
+347	Run			ruby 兔
+348	Optimal Array Multiplication Sequence			lucky 貓
+349	Transferable Voting (II)			
+350	Pseudo-Random Numbers			lucky 貓
+351	``Cheapest Scores			
+352	The Seasonal War			ruby 兔
+353	Pesky Palindromes			lucky 貓
+354	Crazy Calculator			
+355	The Bases Are Loaded			lucky 貓
+356	Square Pegs And Round Holes			lucky 貓
+357	Let Me Count The Ways	2.5	DP, Coin change (Like UVa 674)	lucky 貓
+358	Don't Have A Cow, Dude			
+359	Sex Assignments And Breeding Experiments			
+360	Don't Get Hives From This One!			
+361	Cops and Robbers			
+362	18,000 Seconds Remaining			ruby 兔
+363	Approximate Matches			
+364	Constitutional Computing			
+365	Welfare Reform			
+366	Cutting Up			
+367	Halting Factor Replacement Systems			
+368	Indexing Web Pages			
+369	Combinations	1.5	Combination, Math	lucky 貓
+370	Bingo			
+371	Ackermann Functions	1.0	Collatz conjecture, 3n+1, Simulation	ruby 兔
+372	WhatFix Notation			
+373	Romulan Spelling			
+374	Big Mod			lucky 貓
+375	Inscribed Circles and Isosceles Triangles			lucky 貓
+376	More Triangles ... THE AMBIGUOUS CASE			
+377	Cowculations			ruby 兔
+378	Intersecting Lines			lucky 貓
+379	Hi-Q			ruby 兔
+380	Call Forwarding			
+381	Making the Grade			
+382	Perfection	2.0	Number theory, Prime sieve, Factorization, Perfect number	lucky 貓
+383	Shipping Routes			
+384	Slurpys			ruby 兔
+385	DNA Translation			
+386	Perfect Cubes	1.5	Brute force, Math, Number theory	lucky 貓
+387	A Puzzling Problem			
+388	Galactic Import			
+389	Basically Speaking	1.5	Base conversion, Ad hoc	lucky 貓
+390	Letter Sequence Analysis			
+391	Mark-up			ruby 兔
+392	Polynomial Showdown			lucky 貓
+393	The Doors			ruby 兔
+394	Mapmaker			
+395	Board Silly			
+396	Top Dog			
+397	Equation Elation			ruby 兔
+398	18-Wheeler Caravans (aka Semigroups)			
+399	Another Puzzling Problem			
+004 - Volume IV
+題號	標題	難度	參考解題方向	備註
+400	Unix ls			ruby 兔
+401	Palindromes			ruby 兔
+402	M*A*S*H			lucky 貓
+403	Postscript			
+404	Radar Scopes			
+405	Message Routing			
+406	Prime Cuts			lucky 貓
+407	Gears on a Board			
+408	Uniform Generator			ruby 兔
+409	Excuses, Excuses!			lucky 貓
+410	Station Balance			
+411	Centipede Collisions			
+412	Pi			lucky 貓
+413	Up and Down Sequences			ruby 兔
+414	Machined Surfaces			ruby 兔
+415	Sunrise			
+416	LED Test			ruby 兔
+417	Word Index			lucky 貓
+418	Molecules			
+419	Matching Meetings			
+420	Supercomputer Selection, The Sequel			
+421	Polygonal Puzzle			
+422	Word-Search Wonder			ruby 兔
+423	MPI Maelstrom			ruby 兔
+424	Integer Inquiry	2.0	Big number, Addition	lucky 貓
+425	Enigmatic Encryption			
+426	Fifth Bank of Swamp County			
+427	FlatLand Piano Movers			
+428	Swamp County Roofs			
+429	Word Transformation			lucky 貓
+430	Swamp County Supervisors			
+431	Trial of the Millennium			
+432	Modern Art			
+433	Bank (Not Quite O.C.R.)			ruby 兔
+434	Matty's Blocks			ruby 兔
+435	Block Voting			lucky 貓
+436	Arbitrage (II)			ruby 兔
+437	The Tower of Babylon	2.5	DP, LIS, DAG	lucky 貓
+438	The Circumference of the Circle			lucky 貓
+439	Knight Moves			lucky 貓
+440	Eeny Meeny Moo			ruby 兔
+441	Lotto			lucky 貓
+442	Matrix Chain Multiplication			lucky 貓
+443	Humble Numbers			lucky 貓
+444	Encoder and Decoder			ruby 兔
+445	Marvelous Mazes			lucky 貓
+446	Kibbles ``n Bits ``n Bits ``n Bits	1.5	Base conversion, Ad hoc	lucky 貓
+447	Population Explosion			
+448	OOPS!			ruby 兔
+449	Majoring in Scales			
+450	Little Black Book			ruby 兔
+451	Poker Solitaire Evaluator			lucky 貓
+452	Project Scheduling			
+453	Intersecting Circles			
+454	Anagrams			ruby 兔
+455	Periodic Strings			lucky 貓
+456	Robotic Stacker			
+457	Linear Cellular Automata			ruby 兔
+458	The Decoder	1.0	Ad hoc, Cryptography	lucky 貓
+459	Graph Connectivity			lucky 貓
+460	Overlapping Rectangles			ruby 兔
+461	The Reservation Maker			
+462	Bridge Hand Evaluator			
+463	Polynomial Factorization			
+464	Sentence/Phrase Generator			
+465	Overflow			lucky 貓
+466	Mirror, Mirror			ruby 兔
+467	Synching Signals			
+468	Key to Success			ruby 兔
+469	Wetlands of Florida			ruby 兔
+470	Nasty Virus			
+471	Magic Numbers			lucky 貓
+472	Simultaneous Equations			
+473	Raucous Rockers			
+474	Heads / Tails Probability			lucky 貓
+475	Wild Thing			
+476	Points in Figures: Rectangles			lucky 貓
+477	Points in Figures: Rectangles and Circles			lucky 貓
+478	Points in Figures: Rectangles, Circles, Triangles			lucky 貓
+479	Irrigation Flow Rates			
+480	Tempus Fugit			
+481	What Goes Up	3.0	LIS-nlgn-ver, DP	lucky 貓
+482	Permutation Arrays			lucky 貓
+483	Word Scramble			lucky 貓
+484	The Department of Redundancy Department			lucky 貓
+485	Pascal's Triangle of Death			lucky 貓
+486	English-Number Translator			lucky 貓
+487	Boggle Blitz			
+488	Triangle Wave			lucky 貓
+489	Hangman Judge			lucky 貓
+490	Rotating Sentences			lucky 貓
+491	Tile Topology			
+492	Pig-Latin			lucky 貓
+493	Rational Spiral			lucky 貓
+494	Kindergarten Counting Game	1.0	Ad hoc, Count word	lucky 貓
+495	Fibonacci Freeze	2.0	Big number, Addition, Fibonacci number	lucky 貓
+496	Simply Subsets			lucky 貓
+497	Strategic Defense Initiative	2.5	DP, LIS	lucky 貓
+498	Polly the Polynomial			lucky 貓
+499	What's The Frequency, Kenneth?			ruby 兔
+005 - Volume V
+題號	標題	難度	參考解題方向	備註
+500	Table			
+501	Black Box			
+502	DEL command			
+503	Parallelepiped walk			
+504	Random number			
+505	Moscow time			
+506	System Dependencies			
+507	Jill Rides Again	2.5	DP, Max consecutive subsequence 1D	ruby 兔
+508	Morse Mismatches			
+509	RAID!			
+510	Optimal Routing			
+511	Do You Know the Way to San Jose?			
+512	Spreadsheet Tracking			
+513	Window Frames			
+514	Rails			lucky 貓
+515	King			
+516	Prime Land			lucky 貓
+517	Word			
+518	Time			
+519	Puzzle (II)			
+520	Append			
+521	Gossiping			
+522	Schedule Problem			
+523	Minimum Transport Cost			
+524	Prime Ring Problem			lucky 貓
+525	Milk Bottle Data			
+526	String Distance and Transform Process			
+527	The partition of a cake			
+528	The Problem of Train Setout			
+529	Addition Chains			
+530	Binomial Showdown	1.5	Combination, Math	lucky 貓
+531	Compromise	3.0	DP, LCS	ruby 兔
+532	Dungeon Master			lucky 貓
+533	Equation Solver			
+534	Frogger			lucky 貓
+535	Globetrotter			
+536	Tree Recovery			lucky 貓
+537	Artificial Intelligence?			lucky 貓
+538	Balancing Bank Accounts			
+539	The Settlers of Catan			ruby 兔
+540	Team Queue			
+541	Error Correction			lucky 貓
+542	France '98			ruby 兔
+543	Goldbach's Conjecture	1.5	Number theory, Prime sieve, Goldbach's conjecture	lucky 貓
+544	Heavy Cargo			lucky 貓
+545	Heads			ruby 兔
+546	Image Recognizer			
+547	DDF			
+548	Tree			lucky 貓
+549	Evaluating an Equations Board			
+550	Multiplying by Rotation			
+551	Nesting a Bunch of Brackets			
+552	Filling the Gaps			
+553	Simply proportion			
+554	Caesar Cypher			
+555	Bridge Hands			lucky 貓
+556	Amazing			
+557	Burger			lucky 貓
+558	Wormholes			ruby 兔
+559	Squares (II)			
+560	Magic			
+561	Jackpot			
+562	Dividing coins	2.5	DP, 0-1 knapsack, Subset sum	lucky 貓
+563	Crimewave			
+564	Gaston			
+565	Pizza Anyone?			lucky 貓
+566	Adam's Genes			
+567	Risk			ruby 兔
+568	Just the Facts			lucky 貓
+569	Horse Shoe Scoring			
+570	Stats			
+571	Jugs			lucky 貓
+572	Oil Deposits			lucky 貓
+573	The Snail			lucky 貓
+574	Sum It Up	2.0	Recursive, Subset sum	lucky 貓
+575	Skew Binary	1.5	Ad hoc, Base conversion	ruby 兔
+576	Haiku Review			lucky 貓
+577	WIMP			
+578	Polygon Puzzler			
+579	ClockHands			lucky 貓
+580	Critical Mass			ruby 兔
+581	Word Search Wonder			
+582	Randomly Wired Neural Nets			
+583	Prime Factors	2.0	Number theory, Prime sieve, Factorization	lucky 貓
+584	Bowling			
+585	Triangles			ruby 兔
+586	Instant Complexity			
+587	There's treasure everywhere!			lucky 貓
+588	Video Surveillance			
+589	Pushing Boxes			
+590	Always on the run			
+591	Box of Bricks	1.0	Ad hoc, Loop	lucky 貓
+592	Island of Logic			
+593	MBone			
+594	One Little, Two Little, Three Little Endians			ruby 兔
+595	A Major Problem			
+596	The Incredible Hull			
+597	Last Name First, Please			
+598	Bundling Newspapers			lucky 貓
+599	The Forrest for the Trees			
+006 - Volume VI
+題號	標題	難度	參考解題方向	備註
+600	A Duckpin Tournament			
+601	The PATH			
+602	What Day Is It?	1.5	Ad hoc, Date problem	lucky 貓
+603	Parking Lot			
+604	The Boggle Game			
+605	The Rotating Disk			
+606	Keeps Going and Going and ...			
+607	Scheduling Lectures			
+608	Counterfeit Dollar			lucky 貓
+609	Metal Cutting			
+610	Street Directions			
+611	Parallel Deadlock			
+612	DNA Sorting			lucky 貓
+613	Numbers That Count			
+614	Mapping the Route			
+615	Is It A Tree?			lucky 貓
+616	Coconuts, Revisited			
+617	Nonstop Travel			
+618	Doing Windows			
+619	Numerically Speaking			lucky 貓
+620	Cellular Structure			
+621	Secret Research			ruby 兔
+622	Grammar Evaluation			
+623	500!	2.0	Big number, Factorial	lucky 貓
+624	CD	2.5	DP, 0-1 knapsack	lucky 貓
+625	Compression			
+626	Ecosystem			lucky 貓
+627	The Net			
+628	Passwords			
+629	Test			
+630	Anagrams (II)			
+631	Microzoft Calendar			
+632	Compression (II)			
+633	A Chess Knight			
+634	Polygon			
+635	Clock solitaire			
+636	Squares (III)			
+637	Booklet Printing			
+638	Finding Rectangles			
+639	Don't Get Rooked			lucky 貓
+640	Self Numbers			lucky 貓
+641	Do the Untwist			
+642	Word Amalgamation			ruby 兔
+643	Bulk Mailing			
+644	Immediate Decodability			
+645	File Mapping			
+646	The Gourmet Club			
+647	Chutes and Ladders			
+648	Stamps (II)			
+649	You Who?			
+650	Bowl			
+651	Deck			
+652	Eight			
+653	Gizilch			
+654	Ratio			
+655	Scrabble			
+656	Optimal Programs			
+657	The die is cast			
+658	It's not a Bug, it's a Feature!			
+659	Reflections			
+660	Going in circles on Alpha Centauri			
+661	Blowing Fuses	1.5	Ad hoc, Min max	lucky 貓
+662	Fast Food			
+663	Sorting Slides			
+664	Single-Player Games			
+665	False coin			lucky 貓
+666	Rating			
+667	Fence			
+668	Parliament			lucky 貓
+669	Defragment			
+670	The dog task			
+671	Spell checker			
+672	Gangsters			
+673	Parentheses Balance			lucky 貓
+674	Coin Change	2.5	DP, Coin change (Like UVa 357)	lucky 貓
+675	Convex Hull of the Polygon			
+676	Horse Step Maze			
+677	All Walks of length ``n from the first node			
+678	Schedule of Taiwan Baseball League			
+679	Dropping Balls			lucky 貓
+680	Movement of Reading Head			
+681	Convex Hull Finding	3.0	Computational geometry, Convex hull	lucky 貓
+682	Whoever-pick-the-last-one-lose			
+683	Character Decoding			
+684	Integral Determinant			
+685	Least Path Cost			
+686	Goldbach's Conjecture (II)	1.5	Number theory, Prime sieve, Goldbach's conjecture	lucky 貓
+687	Lattice Practices			
+688	Mobile Phone Coverage			
+689	Napoleon's Grumble			
+690	Pipeline Scheduling			
+691	Triangle Partition			
+692	BUT We Need a Diagram			
+693	Digital Racing Circuit			
+694	The Collatz Sequence	1.0	Collatz conjecture, 3n+1, simulation, Ad hoc	lucky 貓
+695	Placing the Ops			
+696	How Many Knights			
+697	Jack and Jill			
+698	Index			
+699	The Falling Leaves			lucky 貓
+007 - Volume VII
+題號	標題	難度	參考解題方向	備註
+700	Date Bugs			lucky 貓
+701	The Archeologists' Dilemma			ruby 兔
+702	The Vindictive Coach			
+703	Triple Ties: The Organizer's Nightmare			
+704	Colour Hash			lucky 貓
+705	Slash Maze			ruby 兔
+706	LCD Display			lucky 貓
+707	Robbery			
+708	Dreisam Equations			
+709	Formatting Text			
+710	The Game			
+711	Dividing up			ruby 兔
+712	S-Trees			
+713	Adding Reversed Numbers			lucky 貓
+714	Copying Books			
+715	Substitution Cipher			
+716	Commedia dell' arte			
+717	Calculating Expressions on Turing Machine			
+718	Skyscraper Floors			
+719	Glass Beads			
+720	Hares and Foxes			
+721	Invitation Cards			
+722	Lakes			
+723	Comment Removal			
+724	Reverse (Omran age hallesh koni)			
+725	Division			lucky 貓
+726	Decode			
+727	Equation			lucky 貓
+728	Scatter Point Plot			
+729	The Hamming Distance Problem			lucky 貓
+730	Morse Code Generation			
+731	Numerical Summation of a Series			
+732	Anagrams by Stack			ruby 兔
+733	Follow the Folding Dot			
+734	The Programmer's Hex			
+735	Dart-a-Mania			
+736	Lost in Space			
+737	Gleaming the Cubes			ruby 兔
+738	A Logical Problem			
+739	Soundex Indexing			ruby 兔
+740	Baudot Data Communication Code			lucky 貓
+741	Burrows Wheeler Decoder			
+742	Domino Game			
+743	The MTM Machine			
+744	Triangular Museum			
+745	Numeric Puzzles Again!			
+746	Polygon Visibility			
+747	Grid Soccer			
+748	Exponentiation			lucky 貓
+749	Machine Repair Simulation			
+750	8 Queens Chess Problem			lucky 貓
+751	Triangle War			
+752	Unscrambling Images			
+753	A Plug for UNIX			
+754	Treasure Hunt			
+755	487-3279			lucky 貓
+756	Biorhythms			
+757	Gone Fishing			
+758	The Same Game			
+759	The Return of the Roman Empire			lucky 貓
+760	DNA Sequencing			
+761	Transform those strings			
+762	We Ship Cheap			lucky 貓
+763	Fibinary Numbers			lucky 貓
+764	Pentominos			
+765	References			
+766	Sum of powers			
+767	Game			
+768	Crossword			
+769	Magic of David Copperfield			
+770	Puncher			
+771	Flying Stars			
+772	Divide et unita			
+773	The JustaPox Language			
+774	Driving in City Squares			
+775	Hamiltonian Cycle			
+776	Monkeys in a Regular Forest			
+777	Codebreakers			
+778	Recording a tape			
+779	Wily Hacker's Problem			
+780	Sentence Generator			
+781	Optimisation			
+782	Contour Painting			
+783	Trains			
+784	Maze Exploration			ruby 兔
+785	Grid Colouring			ruby 兔
+786	Working with Relations			
+787	Maximum Sub-sequence Product			
+788	One Day Tours			
+789	Indexing			
+790	Head Judge Headache			
+791	Term Reductions			
+792	Program Modules			
+793	Network Connections			lucky 貓
+794	Straightest Paths			
+795	Sandorf's Cipher			
+796	Critical Links			
+797	Two Way Traffic			
+798	Tile Puzzle			
+799	Safari Holiday			
+008 - Volume VIII
+題號	標題	難度	參考解題方向	備註
+800	Crystal Clear			
+801	Flight Planning			
+802	Lead or Gold			
+803	Page Selection by Keyword Matching			
+804	Petri Net Simulation			
+805	Polygon Intersections			
+806	Spatial Structures			
+807	Towers of Powers			
+808	Bee Breeding			ruby 兔
+809	Bullet Hole			
+810	A Dicey Problem			
+811	The Fortified Forest			
+812	Trade on Verweggistan			
+813	Robot			
+814	The Letter Carrier's Rounds			
+815	Flooded!			ruby 兔
+816	Abbott's Revenge			
+817	According to Bartjens			
+818	Cutting Chains			
+819	Gifts Large and Small			
+820	Internet Bandwidth			lucky 貓
+821	Page Hopping			ruby 兔
+822	Queue and A			
+823	Stopper Stumper			
+824	Coast Tracker			
+825	Walking on the Safe Side			lucky 貓
+826	Symbolic Numerical System			
+827	Buddy Memory Allocator			
+828	Deciphering Messages			
+829	Almost Balanced Trees			
+830	Shark			
+831	Document Validator			
+832	Financial Risk			
+833	Water Falls			ruby 兔
+834	Continued Fractions	1.5	Ad hoc, Gcd	lucky 貓
+835	Square of Primes			
+836	Largest Submatrix			lucky 貓
+837	Light and Transparencies			
+838	Worm World			lucky 貓
+839	Not so Mobile			ruby 兔
+840	Deadlock Detection			
+841	Snake			
+842	Crossword Puzzles			
+843	Crypt Kicker			ruby 兔
+844	Pousse			
+845	Gas Station Numbers			lucky 貓
+846	Steps	1.5	Ad hoc, Math, Triangular number	lucky 貓
+847	A Multiplication Game			lucky 貓
+848	Fmt			
+849	Radar Tracking			
+850	Crypt Kicker II			ruby 兔
+851	Maze			
+852	Deciding victory in Go			
+853	DVD Subtitles			
+854	Worse Code			
+855	Lunch in Grid City			lucky 貓
+856	The Vigenère Cipher			
+857	Quantiser			
+858	Berry Picking			
+859	Chinese Checkers			
+860	Entropy Text Analyzer			
+861	Little Bishops			lucky 貓
+862	Origami			
+863	Process Scheduling			
+864	Scheme Pretty-Printing			
+865	Substitution Cypher			ruby 兔
+866	Intersecting Line Segments	3.0	Computational geometry, Segment intersection	
+867	Storing Images in a Sequence			
+868	Numerical Maze			
+869	Airline Comparison			ruby 兔
+870	Intersecting Rectangles			
+871	Counting Cells in a Blob			ruby 兔
+872	Ordering			
+873	Loan (II)			
+874	2D Representations			
+875	Monopoly			
+876	Balanced Expressions			
+877	Offset Polygons			
+878	Rotating Tetris Pieces			
+879	Circuit Nets			
+880	Cantor Fractions	1.5	Math, Cantor, Triangular number	lucky 貓
+881	Points, Polygons and Containers			
+882	The Mailbox Manufacturers Problem			
+883	Overlapping Rectangles			
+884	Factorial Factors	2.0	Number theory, Prime sieve, Factorization	lucky 貓
+885	Telephone Directory Alphabetization			
+886	Named Extension Dialing			
+887	Revolutionary Calendar			
+888	Donkey			
+889	Islands			
+890	Maze (II)			
+891	Syntrax			
+892	Finding words			
+893	Y3K Problem			
+894	Juggling Trams			
+895	Word Problem	1.5	Ad hoc, Word frequency, Dictionary	ruby 兔
+896	Board Game			
+897	Anagrammatic Primes			ruby 兔
+898	Hole Cutter			
+899	Colour Circles			
+009 - Volume IX
+題號	標題	難度	參考解題方向	備註
+900	Brick Wall Patterns			ruby 兔
+901	From Databases to XML			
+902	Password Search	2.0	Ad hoc, Hash, Word frequency	ruby 兔
+903	Spiral of Numbers			lucky 貓
+904	Overlapping Air Traffic Control Zones			
+905	Tacos Panchita			
+906	Rational Neighbor			
+907	Winterim Backpacking Trip			lucky 貓
+908	Re-connecting Computer Sites			lucky 貓
+909	The BitPack Data Compression Problem			
+910	TV game			
+911	Multinomial Coefficients			
+912	Live From Mars			
+913	Joana and the Odd Numbers	1.0	Math, Square number	lucky 貓
+914	Jumping Champion	2.0	Number theory, Prime sieve, Count frequency	ruby 兔
+915	Stack of Cylinders			
+916	Dividing Land			
+917	Euro 2004			
+918	ASCII Mandelbrot			
+919	Cutting Polyominoes			
+920	Sunny Mountains	2.5	Computational geometry, Segment intersection	ruby 兔
+921	A Word Puzzle in the Sunny Mountains			
+922	Rectangle by the Ocean			
+923	One Against Many			
+924	Spreading The News			
+925	No more prerequisites, please!			
+926	Walking Around Wisely			
+927	Integer Sequences from Addition of Terms			
+928	Eternal Truths			
+929	Number Maze			ruby 兔
+930	Polynomial Roots			
+931	The Probable n-Ascendants			
+932	Checking the N-Queens Problem			
+933	Water Flow			
+934	Overlapping Areas			
+935	Smart Strategy			
+936	Mars for Sale			
+937	Kriss Kross Puzzle			
+938	Gilix			
+939	Genes			
+940	Autobiographical Numbers			
+941	Permutations			ruby 兔
+942	Cyclic Numbers			
+943	Number Format Translator			
+944	Happy Numbers			
+945	Loading a Cargo Ship			
+946	A Pile of Boxes			
+947	Master Mind Helper			
+948	Fibonaccimal Base			ruby 兔
+949	Getaway			
+950	Tweedle Numbers			
+951	The Pieces of the Puzzle			
+952	Uno game			
+953	The Incredible Pile Machine			
+954	Tetravex solver			
+955	Interpreting Old Maps			
+956	The Minimum Slot Machine			
+957	Popes			
+958	A Homer's Holiday			
+959	Car Rallying			
+960	Gaussian Primes			
+961	Ambiguous or Incomplete Inductive Definitions			
+962	Taxicab Numbers			
+963	Spelling Corrector			
+964	Custom Language			
+965	Police Road Blocks			
+966	Lost Inheritances			
+967	Circular			ruby 兔
+968	Constellations			
+969	AlienAlgebra			
+970	Particles			
+971	Towers			
+972	Horizon Line			
+973	The Guessing Game			
+974	Kaprekar Numbers			ruby 兔
+975	Gutenberg Clumsy Helper			
+976	Bridge Building			
+977	Old West Rumours			
+978	Lemmings Battle!			
+979	The Abominable Triangleman			
+980	X-Express			
+981	Systematic Cyclic Redundancy Check Codes			
+982	Cube			
+983	Localized Summing for Blurring			
+984	Finding Haplotypes			
+985	Round and Round Maze			
+986	How Many?			
+987	Maternity			
+988	Many Paths, One Destination			
+989	Su Doku			lucky 貓
+990	Diving for Gold	2.5	DP, 0-1 knapsack	ruby 兔
+991	Safe Salutations			ruby 兔
+992	Customer Service Cost Evaluation			
+993	Product of digits	1.5	Greedy	lucky 貓
+994	POP			
+995	Super Divisible Numbers			
+996	Find the Sequence			
+997	Show the Sequence			
+998	Dendogram			
+999	Book signatures			
